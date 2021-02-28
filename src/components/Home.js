@@ -22,7 +22,7 @@ export default function Home() {
     return (
         <section id="home">
            <Anime duration={6000} opacity={[0, 1]} translateY={'3em'} delay={(e, i) => i * 1000}>
-    <h1>LEIBERMAN <br></br>GLASS</h1>
+    <h1>LEIBERMAN hi<br></br>GLASS</h1>
     </Anime>
     
          <div className="slide-container">
