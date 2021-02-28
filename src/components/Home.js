@@ -9,6 +9,7 @@ import pea from '../images/glass/IMG_7188.JPG'
 import 'react-slideshow-image/dist/styles.css'
 import { Fade } from 'react-slideshow-image';
 import Anime from 'react-anime';
+import ReactPlayer from 'react-player'
 const slideImages = [
     lantern,
     blue,
@@ -21,40 +22,17 @@ export default function Home() {
  
     return (
         <section id="home">
-           <Anime duration={6000} opacity={[0, 1]} translateY={'3em'} delay={(e, i) => i * 1000}>
-    <h1>LEIBERMAN hi<br></br>GLASS</h1>
-    </Anime>
-    
-         <div className="slide-container">
-         <Anime duration={2000} opacity={[0, 1]} translateY={'2em'} delay={(e, i) => i * 1000}>
-        <Fade>
-          <div className="each-slide">
-            <div >
-             <img src={slideImages[0]}></img>
-            </div>
-          </div>
-          <div className="each-slide">
-          <div>
-             <img src={slideImages[1]}></img>
-            </div>
-          </div>
-          <div className="each-slide">
-          <div>
-             <img src={slideImages[2]}></img>
-            </div>
-          </div>
-          <div className="each-slide">
-          <div>
-             <img src={slideImages[3]}></img>
-            </div>
-          </div>
-        </Fade>
-        </Anime>
-        
-      </div>
-    
-       
+          <ReactPlayer
+            className='react-player '
+            url= ''
+            width ='100vw'
+            height='100vw'
 
+            controls = {true}
+            loop = {true}
+            playing={true}
+            muted={true}
+            />
 
       
         
