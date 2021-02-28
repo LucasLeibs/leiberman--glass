@@ -10,25 +10,18 @@ import 'react-slideshow-image/dist/styles.css'
 import { Fade } from 'react-slideshow-image';
 import Anime from 'react-anime';
 import ReactPlayer from 'react-player'
-const slideImages = [
-    lantern,
-    blue,
-    red,
-    pea,
-    blue2,
-  ];
-  
+
 export default function Home() {
  
     return (
         <section id="home">
           <ReactPlayer
             className='react-player '
-            url= ''
+            url= '/videos/movie.mp4'
             width ='100vw'
             height='100vw'
 
-            controls = {true}
+            controls = {false}
             loop = {true}
             playing={true}
             muted={true}

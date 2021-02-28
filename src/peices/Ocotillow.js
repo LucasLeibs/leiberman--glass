@@ -4,11 +4,11 @@ import red2 from "../images/glass/IMG_7230.JPG";
 import logo from '../images/glass/logo.png'
 import blue from '../images/glass/IMG_7240.JPG'
 import red from '../images/glass/IMG_7219.JPG'
-import blue2 from '../images/glass/IMG_7248.JPG'
+import blue2 from '../images/glass/IMG_7198.JPG'
 import blue3 from '../images/glass/IMG_7202.JPG'
 import blueClose from '../images/glass/IMG_7206.JPG'
-import bluebowl from '../images/glass/IMG_7249.JPG'
-import redlean from '../images/glass/IMG_7236.JPG'
+import bluebowl from '../images/glass/IMG_7248.JPG'
+import blueclose2 from '../images/glass/IMG_7209.JPG'
 
 import 'react-slideshow-image/dist/styles.css'
 import { Fade } from 'react-slideshow-image';
@@ -21,7 +21,7 @@ const slideImages = [
     blueClose,
     blue3,
     bluebowl,
-    redlean
+   
   ];
   
 export default function Ocotillow() {
@@ -37,10 +37,16 @@ export default function Ocotillow() {
     <img src={blue2} className="gallery__img" alt="Image 1"/>
   </figure>
        <figure className="gallery__item-3">
-    <img src={redlean} className="gallery__img" alt="Image 1"/>
+    <img src={blue3} className="gallery__img" alt="Image 1"/>
   </figure>
+      
+       <figure className="gallery__item-4">
+    <img src={bluebowl} className="gallery__img" alt="Image 1"/>
+  </figure>
+   
+      
   <div className="ocotillo-desc">
-    <h1>OCOTOLLO</h1>
+    <h2>OCOTOLLO</h2>
     <p>THIS IS THE DESCRIPTION OF THE OCTILLOW PICEC IT ORGINAITED 
       IN THE DESTERNM AND I LOCE IT AND FH DFNISHDFDSF 
       ADF I MADE IT FROM THE BOTTOM OF MY HEASKDRHJUIR.
