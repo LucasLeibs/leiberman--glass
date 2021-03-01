@@ -47,7 +47,7 @@ export default function WorkNav() {
           <li>
             <Link
               className="link"
-             
+             to="/acorns"
             >
               ACORNS
             </Link>

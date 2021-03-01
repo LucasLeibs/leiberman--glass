@@ -4,6 +4,7 @@ import Ocotillow from '../peices/Ocotillow'
 import Lanterns from '../peices/Lanterns'
 import Peapods from '../peices/Peapods'
 import Main from '../containers/Main'
+import Acrons from '../peices/Acrons'
 import {
   BrowserRouter as Router,
   Switch,
@@ -25,6 +26,7 @@ export default function BrowsePieces() {
         <Route exact path="/work" component={Ocotillow}/>
       <Route exact path="/lanterns" component={Lanterns}/>
       <Route exact path="/peapods" component={Peapods}/>
+      <Route exact path="/acorns" component={Acrons}/>
       {/* <Route exact path="/work" component={BrowsePieces}/> */}
   
    
