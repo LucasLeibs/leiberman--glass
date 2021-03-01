@@ -33,7 +33,7 @@ export default function Ocotillow() {
        <figure className="gallery__item-1">
        <ReactPlayer
             className='react-player '
-            url= '/videos/intro.mp4'
+            url= '/videos/intro2.mp4'
             width ='100%'
             height='100%'
 
@@ -61,7 +61,7 @@ export default function Ocotillow() {
    
       
   <div className="ocotillo-desc">
-    <h2>OCOTOLLO</h2>
+    <h2>OCOTILLO</h2>
     <p>THIS IS THE DESCRIPTION OF THE OCTILLOW PICEC IT ORGINAITED 
       IN THE DESTERNM AND I LOCE IT AND FH DFNISHDFDSF 
       ADF I MADE IT FROM THE BOTTOM OF MY HEASKDRHJUIR.
