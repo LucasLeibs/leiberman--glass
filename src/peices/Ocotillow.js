@@ -9,7 +9,7 @@ import blue3 from '../images/glass/IMG_7202.JPG'
 import blueClose from '../images/glass/IMG_7206.JPG'
 import bluebowl from '../images/glass/IMG_7248.JPG'
 import blueclose2 from '../images/glass/IMG_7209.JPG'
-
+import ReactPlayer from 'react-player'
 import 'react-slideshow-image/dist/styles.css'
 import { Fade } from 'react-slideshow-image';
 import Anime from 'react-anime';
@@ -31,7 +31,19 @@ export default function Ocotillow() {
       
       <div className="gallery">
        <figure className="gallery__item-1">
-    <img src={blue} className="gallery__img" alt="Image 1"/>
+       <ReactPlayer
+            className='react-player '
+            url= '/videos/intro.mp4'
+            width ='100%'
+            height='100%'
+
+            controls = {false}
+            loop = {true}
+            playing={true}
+            muted={true}
+            />
+
+    {/* <img src={blue} className="gallery__img" alt="Image 1"/> */}
   </figure>
        <figure className="gallery__item-2">
     <img src={blue2} className="gallery__img" alt="Image 1"/>
