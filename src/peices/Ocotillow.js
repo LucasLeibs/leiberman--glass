@@ -3,7 +3,7 @@ import React from 'react'
 import red2 from "../images/glass/IMG_7230.JPG";
 import logo from '../images/glass/logo.png'
 import blue from '../images/glass/IMG_7240.JPG'
-import red from '../images/glass/IMG_7219.JPG'
+import red from '../images/glass/IMG_7236.JPG'
 import blue2 from '../images/glass/IMG_7198.JPG'
 import blue3 from '../images/glass/IMG_7202.JPG'
 import blueClose from '../images/glass/IMG_7206.JPG'
@@ -37,11 +37,14 @@ export default function Ocotillow() {
     <img src={blue2} className="gallery__img" alt="Image 1"/>
   </figure>
        <figure className="gallery__item-3">
-    <img src={blue3} className="gallery__img" alt="Image 1"/>
+    <img  src={blue3} id="contain" className="gallery__img" alt="Image 1"/>
   </figure>
       
        <figure className="gallery__item-4">
     <img src={bluebowl} className="gallery__img" alt="Image 1"/>
+  </figure>
+       <figure className="gallery__item-5">
+    <img src={red} id="opacity" className="gallery__img" alt="Image 1"/>
   </figure>
    
       

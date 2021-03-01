@@ -20,29 +20,28 @@ export default function Lanterns() {
     return (
         <section id="peapods">
           
-          <div className="slide-container">
-         <Anime duration={2000} opacity={[0, 1]} translateY={'2em'} delay={(e, i) => i * 1000}>
-        <Fade>
-          <div className="each-slide">
-            <div >
-             <img src={slideImages[0]}></img>
-            </div>
-          </div>
-          <div className="each-slide">
-          <div>
-             <img src={slideImages[1]}></img>
-            </div>
-          </div>
-          <div className="each-slide">
-          <div>
-             <img src={slideImages[2]}></img>
-            </div>
-          </div>
-         
-        </Fade>
-        </Anime>
-        
-      </div>
+          
+      
+      <div className="gallery">
+       <figure className="gallery__item-1-pea">
+    <img src={greenPeapod}  className="gallery__img" alt="Image 1"/>
+  </figure>
+       <figure className="gallery__item-2-pea">
+    <img src={peapod3} id="contain" className="gallery__img" alt="Image 1"/>
+  </figure>
+    
+   
+      
+  <div className="ocotillo-desc">
+    <h2>PEAPODS</h2>
+    <p>THIS IS THE DESCRIPTION OF THE OCTILLOW PICEC IT ORGINAITED 
+      IN THE DESTERNM AND I LOCE IT AND FH DFNISHDFDSF 
+      ADF I MADE IT FROM THE BOTTOM OF MY HEASKDRHJUIR.
+    </p>
+  </div>
+  </div>
+  
+      
         </section>
     )
 }
