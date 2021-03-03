@@ -16,10 +16,10 @@ export default function Lanterns() {
           <div className="gallery">
       
        <figure className="gallery__item-1-lantern">
-    <img src={lantern} className="gallery__img" alt="Image 1"/>
+    <img src={lantern} className="contain" alt="Image 1"/>
   </figure>
        <figure className="gallery__item-2-lantern">
-    <img  src={lantern2} className="gallery__img" alt="Image 1"/>
+    <img  src={lantern2} className="contain" alt="Image 1"/>
   </figure>
       
   

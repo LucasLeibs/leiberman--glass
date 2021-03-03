@@ -13,7 +13,7 @@ export default function WorkNav() {
           duration={3000}
           direction="alternate"
           delay={(el, index) => index * 240}
-          translateX='5rem'
+          translateX='0rem'
           scale={[.95, .9]}
           >
            <li><h1>WORK</h1>  </li> 

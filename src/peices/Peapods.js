@@ -27,7 +27,7 @@ export default function Lanterns() {
     <img src={greenPeapod}  className="gallery__img" alt="Image 1"/>
   </figure>
        <figure className="gallery__item-2-pea">
-    <img src={peapod3} id="contain" className="gallery__img" alt="Image 1"/>
+    <img src={peapod3} id="contain" className="contain" alt="Image 1"/>
   </figure>
     
    
