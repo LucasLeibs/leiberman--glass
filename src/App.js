@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React, { useEffect } from 'react'
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
@@ -11,6 +11,7 @@ import BrowsePieces from './components/BrowsePieces';
 import Main from './containers/Main';
 import ReactDOM from 'react-dom'
 import ScrollSnap from 'scroll-snap'
+import logo from './images/logo.png'
 
 // import blue from '../images/glass/IMG_7240.JPG'
 
@@ -46,6 +47,18 @@ function App() {
     
     
     
+    <footer> 
+     
+      <span><img className="logo" src={logo}></img>
+      <p>Leiberman Glass</p></span>
+      <div>Awards & Recogniton
+        <p> <img className="logo" src="https://www.festivals.com/img/festivals/0002547_0005270_a8Ye72a.jpg"></img> BAM Arts Festival Best in Show 3x</p>
+        <p> - </p>
+      </div>
+      <p>P.O. Box 1086 <br></br>Langley, WA <br></br> 98260</p>
+     
+  
+    </footer>
     
     </div>
     </Router>

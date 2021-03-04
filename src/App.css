@@ -10,7 +10,7 @@ height: 100%;
 .navbar {
   margin-top: 250px;
   position: fixed;
-margin-right:-200px;
+margin-left:-300px;
   z-index: 1;
   display: flex;
 
@@ -23,6 +23,7 @@ margin-right:-200px;
 }
 
 html {
+  
   scroll-snap-type: y proximity;
   transition: all 1s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -48,8 +49,9 @@ html {
 }
 
 .navbar ul li > .active {
-  border-bottom: 1px solid black;
-  padding-bottom: 5px;
+  border-left: 4px solid rgb(224, 248, 156);
+
+  padding-left: 10px;
   text-decoration: none;
  font-size: 1.2rem;
   color: white
@@ -106,7 +108,27 @@ section#peapods {
   
 
 }
-
+footer {
+     
+  height: 200px;
+  background: #50637D;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px 0px 20px
+}
+footer span {
+  display: flex;
+  flex-direction: column;
+  align-items:center
+}
+footer div {
+  border: 1px solid white;
+  padding: 5px
+}
+ 
 
 .image-container {
  display: flex;
@@ -147,12 +169,45 @@ section#home h1 {
 
 
 .glass-container {
-  width: 55vw;
+  width: 80vw;
   height: 100vh;
-  margin-right: -150px;
+  margin-right: -20vw;
   background: white;
+  color: black;
+  display: flex; 
+  flex-direction: column;
+  align-items:flex-start;
+ 
 }
 
+.glass-container h2{
+margin-top: 60px;
+margin-left: 50px;
+letter-spacing: 1rem;
+font-weight: bolder;
+font-size: 2rem;
+
+}
+.glass-container h3{
+border-bottom: 4px solid  rgba(224, 248, 156);
+letter-spacing:.5rem;
+padding-bottom: 5px;
+
+
+}
+
+.glass-container article {
+  margin:  80px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align:left;
+width: 50%;
+line-height: 2rem;
+border-right: 4px solid rgba(224, 248, 156);
+padding-right: 50px;
+}
 /* section#home::after {
   content: "";
   background: url(./images/glass/Aurora\ Lantern.JPG);
@@ -173,8 +228,8 @@ section#catalog:hover {
   }
 
   .logo {
-    width: 200px;
-    margin-left: 50px;
+    width: 50px;
+  margin-left: 20px;
   }
 
   .glass {
@@ -490,14 +545,15 @@ margin-right: -200px
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(32, 5vw);
   grid-gap: 15px;
-  width: 82vw;
+  width: 80vw;
   height: 100vh;
   background: white;
-  margin-right:-315px;
+margin-left: 290px;
 
   border-radius: 0rem;
   border-left: 4px solid #50637D;
-  overflow: auto;
+  overflow-y: auto;
+  
 }
 .gallery__img {
   width: 100%;

@@ -2,6 +2,7 @@ import React from "react";
 import MailOutlineRoundedIcon from "@material-ui/icons/MailOutlineRounded";
 import Button from "@material-ui/core/Button";
 import emailjs from "emailjs-com";
+import logo from '../images/logo.png'
 export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
@@ -30,6 +31,7 @@ export default function Contact() {
         <textarea id="message" type="text" placeholder="MESSAGE" name="message"></textarea>
         <input id="submit" type="submit" value="GO!" />
       </form>
+      
     </section>
   );
 }
