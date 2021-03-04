@@ -55,7 +55,7 @@ export default function WorkNav() {
           <li>
             <Link
               className="link"
-             
+             to='/urchins'
             >
               URCHINS
             </Link>

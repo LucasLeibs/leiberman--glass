@@ -5,6 +5,7 @@ import Lanterns from '../peices/Lanterns'
 import Peapods from '../peices/Peapods'
 import Main from '../containers/Main'
 import Acrons from '../peices/Acrons'
+import Urchins from '../peices/Urchins'
 import {
   BrowserRouter as Router,
   Switch,
@@ -27,6 +28,7 @@ export default function BrowsePieces() {
       <Route exact path="/lanterns" component={Lanterns}/>
       <Route exact path="/peapods" component={Peapods}/>
       <Route exact path="/acorns" component={Acrons}/>
+      <Route exact path="/urchins" component={Urchins}/>
       {/* <Route exact path="/work" component={BrowsePieces}/> */}
   
    

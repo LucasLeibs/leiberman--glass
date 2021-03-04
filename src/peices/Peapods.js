@@ -25,18 +25,18 @@ export default function Lanterns() {
       <div className="gallery">
        <figure className="gallery__item-1-pea">
     <img src={greenPeapod}  className="gallery__img" alt="Image 1"/>
+    <p>Green</p>
   </figure>
        <figure className="gallery__item-2-pea">
     <img src={peapod3} id="contain" className="contain" alt="Image 1"/>
+    <p>Aurora</p>
   </figure>
     
    
       
   <div className="ocotillo-desc">
     <h2>PEAPODS</h2>
-    <p>THIS IS THE DESCRIPTION OF THE OCTILLOW PICEC IT ORGINAITED 
-      IN THE DESTERNM AND I LOCE IT AND FH DFNISHDFDSF 
-      ADF I MADE IT FROM THE BOTTOM OF MY HEASKDRHJUIR.
+    <p>A Simply elegant seed vessel, holding three pure silver leaf covered, solid glass peas.
     </p>
   </div>
   </div>

@@ -17,6 +17,7 @@ export default function Lanterns() {
       
        <figure className="gallery__item-1-lantern">
     <img src={lantern} className="contain" alt="Image 1"/>
+    <p>Red/Orange</p>
   </figure>
        <figure className="gallery__item-2-lantern">
     <img  src={lantern2} className="contain" alt="Image 1"/>
@@ -25,10 +26,9 @@ export default function Lanterns() {
   
       
   <div className="ocotillo-desc">
-    <h2>CHINESE LANTERNS</h2>
-    <p>THIS IS THE DESCRIPTION OF THE OCTILLOW PICEC IT ORGINAITED 
-      IN THE DESTERNM AND I LOCE IT AND FH DFNISHDFDSF 
-      ADF I MADE IT FROM THE BOTTOM OF MY HEASKDRHJUIR.
+    <h2>JAPANESE LANTERNS</h2>
+    <p>Inspired by the delicate paper-like seed pods of the Japanese Lantern plant. <br></br>
+      Colors not shown: Amber/Olive
     </p>
   </div>
   </div>
