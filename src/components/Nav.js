@@ -56,7 +56,7 @@ export default function Nav() {
               offset={0}
               duration={750}
             >
-              CATALOG
+              WORK
             </Linky>
           </li>
           <li>

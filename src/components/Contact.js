@@ -21,17 +21,20 @@ export default function Contact() {
 
   return (
     <section id="contact">
+     
       {/* <h1>INQUIRE ABOUT A PIECE</h1>
         <Button variant="contained" >
        <MailOutlineRoundedIcon style={{ fontSize: 40 }}></MailOutlineRoundedIcon>
        </Button> */}
+       <div className="form-container">
+       <h2>INQUIRE</h2>
       <form onSubmit={(e) => sendEmail(e)} id="form" class="topBefore">
         <input id="name" type="text" placeholder="NAME" name="name" />
         <input id="email" type="text" placeholder="E-MAIL" name="email" />
         <textarea id="message" type="text" placeholder="MESSAGE" name="message"></textarea>
         <input id="submit" type="submit" value="GO!" />
       </form>
-      
+      </div>
     </section>
   );
 }

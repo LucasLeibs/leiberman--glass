@@ -50,7 +50,7 @@ function App() {
     <footer> 
      
       <span><img className="logo" src={logo}></img>
-      <p>Leiberman Glass</p></span>
+      <p>Leiberman Glass LLC.</p></span>
       <div>Awards & Recogniton
         <p> <img className="logo" src="https://www.festivals.com/img/festivals/0002547_0005270_a8Ye72a.jpg"></img> BAM Arts Festival Best in Show 3x</p>
         <p> - </p>

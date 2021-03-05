@@ -17,12 +17,12 @@ export default function WorkNav() {
           scale={[.95, .9]}
           >
            <li><h1>WORK</h1>  </li> 
-          <li>
+           <li>
             <Link
               className="link"
-                to="/work"
+             to="/work"
             >
-            OCOTILLOW BOWLS
+              URCHINS
             </Link>
           </li>
           <li>
@@ -47,17 +47,18 @@ export default function WorkNav() {
           <li>
             <Link
               className="link"
-             to="/acorns"
+                to="/ocotillo"
             >
-              ACORNS
+            OCOTILLO
             </Link>
           </li>
+         
           <li>
             <Link
               className="link"
-             to='/urchins'
+             to='/acorns'
             >
-              URCHINS
+              ACORNS
             </Link>
           </li>
           <li>

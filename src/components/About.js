@@ -13,8 +13,8 @@ export default function About() {
             have in our lives. 
             We depend upon plants for sustenence and the air we breathe. 
             They have the power to heal the sick, poison the unwary, and alter the state of human conciousness. 
-            Flowers are given to communicate what words alone cannot: expressions of love or greif, 
-            celebrations of birth and marroage. 
+            Flowers are given to communicate what words alone cannot: expressions of love or grief,  
+            celebrations of birth and marriage. 
             We have used plants, actually, or symbolically, in worship and spiritual rituals since our beginning. 
             <br></br>
             <br></br>

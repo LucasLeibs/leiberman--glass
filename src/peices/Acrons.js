@@ -49,6 +49,7 @@ export default function Acrons() {
   <figure className="gallery__item-6-acorns">
     <img src={red} className="contain" alt="Image 1"/>
     <p>Cranberry</p>
+    <p>Colors not shown in set: Amethyst, Amber, Capri Blue</p>
   </figure>
   <figure className="gallery__item-acorn-arrow">
   <svg id="down-arrow" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
@@ -60,7 +61,7 @@ export default function Acrons() {
   <div className="ocotillo-desc">
     <h2>ACORN PAPERWEIGHTS</h2>
     <p>The acorn has been known as a symbol of prosperity and good luck. These jewel tone paperwights make a beautiful accent for any home or office.
-    <p>Colors not shown in set: Amethyst, Amber, Capri Blue</p>
+
     </p>
   </div>
   </div>

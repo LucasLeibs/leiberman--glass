@@ -27,11 +27,11 @@ export default function BrowsePieces() {
         
         <Switch>
        
-        <Route exact path="/work" component={Ocotillow}/>
+        <Route exact path="/work" component={Urchins}/>
       <Route exact path="/lanterns" component={Lanterns}/>
       <Route exact path="/peapods" component={Peapods}/>
+      <Route exact path="/ocotillo" component={Ocotillow}/>
       <Route exact path="/acorns" component={Acrons}/>
-      <Route exact path="/urchins" component={Urchins}/>
       {/* <Route exact path="/work" component={BrowsePieces}/> */}
   
    
