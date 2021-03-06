@@ -21,6 +21,22 @@ margin-left:-300px;
 
  
 }
+.navbar-mobile {
+  
+  position: fixed;
+  top: 0;
+margin-top:-300px;
+  z-index: 1;
+  display: flex;
+  
+
+ width: 300px;
+  height: 200px;
+  /* background: rgb(252, 250, 250); */
+
+
+ 
+}
 
 html {
   
@@ -38,6 +54,15 @@ html {
   justify-content: center;
   
 }
+.navbar-mobile ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  width: 100vw;
+  justify-content: center;
+  margin-left: 10%;
+
+}
 
 .navbar ul li {
   margin: 0 1rem;
@@ -45,6 +70,14 @@ html {
   color: white;
   letter-spacing: 3px;
   width: 250px;
+  
+}
+.navbar-mobile ul li {
+  margin: 0;
+margin: 5px;
+  color: white;
+  letter-spacing: 3px;
+
   
 }
 
@@ -109,27 +142,64 @@ section#peapods {
 
 }
 footer {
-     
+  
   height: 200px;
   background: #50637D;
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 0px 20px 0px 20px;
-  
+ 
+}
+footer a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(224, 248, 156);
+  padding-bottom: 3px;
+}
+footer a:hover {
+  color: skyblue!important;
+}
+ footer a:visited {
+  text-decoration: none;
+  color: white;
 }
 footer span {
   display: flex;
   flex-direction: column;
   align-items:center
 }
-footer div {
-  border: 1px solid white;
-  padding: 5px
+.award-container {
+ border-left: 4px solid rgba(224, 248, 156);
+  padding: 5px;
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
- 
+.award-container  > p{
+letter-spacing: 2px;
+margin-bottom: 5px;
+}
+ .awards {
+   display: flex;
+   flex-direction: row;
+  
+  
+ }
+ .award {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   text-align: center;
+   width: 200px;
+   margin: 20px;
+   
+ }
 
 .image-container {
  display: flex;
@@ -180,6 +250,17 @@ section#home h1 {
   align-items:flex-start;
  
 }
+.glass-container-mobile {
+  width: 100vw;
+  height: 100vh;
+ 
+  background: white;
+  color: black;
+  display: flex; 
+  flex-direction: column;
+  align-items:flex-start;
+ 
+}
 .form-container {
 width: 75vw;
 height: 100vh;
@@ -187,6 +268,36 @@ margin-right: -20vw;
 background: rgb(250, 246, 246);
 border-top: 4px solid rgba(224, 248, 156);
 
+}
+.form-container-mobile {
+width: 100vw;
+height: 100vh;
+
+background: rgb(250, 246, 246);
+border-top: 4px solid rgba(224, 248, 156);
+
+}
+
+.form-container-mobile input {
+  font-family: 'Lato', sans-serif;
+  margin-top: 10px;
+  font-size: 0.8em;
+  width: 300px;
+
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 0.5px rgb(134, 137, 146);
+  border-radius: 1rem;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out
 }
 
 .glass-container h2{
@@ -197,11 +308,27 @@ font-weight: bolder;
 font-size: 2rem;
 
 }
+.glass-container-mobile h2{
+margin-top: 5vw;
+margin-left: 5vw;
+letter-spacing: 1rem;
+font-weight: bolder;
+font-size: 1.5rem;
+margin-bottom: 5vw;
+
+}
 .glass-container h3{
 border-bottom: 4px solid  rgba(224, 248, 156);
 letter-spacing:.5rem;
 padding-bottom: 5px;
 
+
+}
+.glass-container-mobile h3{
+border-bottom: 4px solid  rgba(224, 248, 156);
+letter-spacing:.5rem;
+padding-bottom: 5px;
+font-size: 0.8rem
 
 }
 
@@ -217,6 +344,17 @@ height: 75%;
 line-height: 2rem;
 border-right: 4px solid rgba(224, 248, 156);
 padding-right: 50px;
+}
+.glass-container-mobile article {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+font-size: .6rem;
+
 }
 /* section#home::after {
   content: "";
@@ -238,8 +376,8 @@ section#catalog:hover {
   }
 
   .logo {
-    width: 50px;
-  margin-left: 20px;
+    width: 60px;
+  
   }
 
   .glass {
@@ -589,7 +727,7 @@ margin-right: -200px
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(32, 5vw);
   grid-gap: 15px;
-  width: 80vw;
+  width: 76vw;
   height: 100vh;
   background: white;
 margin-left: 290px;
@@ -834,3 +972,24 @@ cursor: pointer
  }
  /* #273241 */
  /* #50637D; */
+
+
+
+
+/* 
+ MOBILE VERSION  */
+ /* @media screen and (max-width: 375px) {
+  .container {
+width: 375px;
+height: 667px;
+/*smooth scrool*/
+/* overflow-y: scroll; */
+/* scroll-behavior: smooth */
+/* background: url(./images/glass/IMG_7197.JPG)no-repeat center center/cover; */
+
+
+.mobile-title {
+letter-spacing: 1rem;
+margin-bottom: -10px;
+}
+

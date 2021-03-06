@@ -10,11 +10,13 @@ import 'react-slideshow-image/dist/styles.css'
 import { Fade } from 'react-slideshow-image';
 import Anime from 'react-anime';
 import ReactPlayer from 'react-player'
-
+import MediaQuery from 'react-responsive'
 export default function Home() {
  
     return (
+      
         <section id="home">
+          <MediaQuery minWidth={700}>
           <ReactPlayer
             className='react-player '
             url= '/videos/movie.mp4'
@@ -26,8 +28,21 @@ export default function Home() {
             playing={true}
             muted={true}
             />
+</MediaQuery>   
+      <MediaQuery maxWidth={700}>
+     <h2 className="mobile-title">LEIBERMAN GLASS</h2>
+      <ReactPlayer
+            className='react-player '
+            url= '/videos/movie.mp4'
+            width ='90vw'
+            height='100vw'
 
-      
+            controls = {false}
+            loop = {true}
+            playing={true}
+            muted={true}
+            />
+      </MediaQuery>
         
        
      </section>

@@ -5,6 +5,7 @@ import emailjs from "emailjs-com";
 import logo from '../images/logo.png'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MediaQuery from 'react-responsive'
 export default function Contact() {
 
   const [name, setName] = useState("")
@@ -31,7 +32,7 @@ export default function Contact() {
  
   return (
     <section id="contact">
-     
+     <MediaQuery minWidth={700}>
       {/* <h1>INQUIRE ABOUT A PIECE</h1>
         <Button variant="contained" >
        <MailOutlineRoundedIcon style={{ fontSize: 40 }}></MailOutlineRoundedIcon>
@@ -53,9 +54,32 @@ pauseOnHover={false}
         <input  onChange={(e) => trackName(e)} id="name" type="text" placeholder="NAME" name="name" />
         <input id="email" type="text" placeholder="E-MAIL" name="email" />
         <textarea id="message" type="text" placeholder="MESSAGE" name="message"></textarea>
-        <input  id="submit" type="submit" value="GO!" />
+        <input  id="submit" type="submit" value="SEND" />
       </form>
       </div>
+      </MediaQuery>
+      <MediaQuery maxWidth={700}>
+      <div className="form-container-mobile">
+       <h2>INQUIRE</h2>
+       <ToastContainer
+position="top-right"
+autoClose={5000}
+hideProgressBar={true}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover={false}
+/>
+      <form onSubmit={(e) => sendEmail(e)} id="form" class="topBefore">
+        <input  onChange={(e) => trackName(e)} id="name" type="text" placeholder="NAME" name="name" />
+        <input id="email" type="text" placeholder="E-MAIL" name="email" />
+        <textarea id="message" type="text" placeholder="MESSAGE" name="message"></textarea>
+        <input  id="submit" type="submit" value="SEND" />
+      </form>
+      </div>
+      </MediaQuery>
     </section>
   );
 }
