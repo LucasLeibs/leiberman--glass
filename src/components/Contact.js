@@ -62,7 +62,7 @@ pauseOnHover={false}
       <div className="form-container-mobile">
        <h2>INQUIRE</h2>
        <ToastContainer
-position="top-right"
+position="bottom-center"
 autoClose={5000}
 hideProgressBar={true}
 newestOnTop={false}

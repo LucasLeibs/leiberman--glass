@@ -12,7 +12,7 @@ import Main from './containers/Main';
 import ReactDOM from 'react-dom'
 import ScrollSnap from 'scroll-snap'
 import logo from './images/logo.png'
-
+import MediaQuery from 'react-responsive'
 // import blue from '../images/glass/IMG_7240.JPG'
 
 function callback() {
@@ -46,7 +46,7 @@ function App() {
     </Switch>
     
     
-    
+    <MediaQuery minWidth={700}>
     <footer> 
      
       
@@ -76,7 +76,19 @@ function App() {
      
   
     </footer>
+    </MediaQuery>
+    <MediaQuery maxWidth={700}>
+    <footer className="footer-mobile"> 
+     
+      
+     <span><p>Leiberman Glass LLC.<p>P.O. Box 1086 <br></br>Langley, WA <br></br> 98260</p></p></span>
+     
+     
+     
     
+ 
+   </footer>
+    </MediaQuery>
     </div>
     </Router>
     
