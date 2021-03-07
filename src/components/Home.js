@@ -1,11 +1,5 @@
 import React from 'react'
-
-import logo from '../images/glass/logo.png'
-import blue from '../images/glass/IMG_7240.JPG'
-import red from '../images/glass/IMG_7219.JPG'
-import blue2 from '../images/glass/IMG_7248.JPG'
-import lantern from '../images/glass/IMG_7171.JPG'
-import pea from '../images/glass/IMG_7188.JPG'
+import { Link } from 'react-router-dom'
 import 'react-slideshow-image/dist/styles.css'
 import { Fade } from 'react-slideshow-image';
 import Anime from 'react-anime';
@@ -42,6 +36,7 @@ export default function Home() {
             playing={true}
             muted={true}
             />
+            <Link to="/work"><button className="work-button-mobile">WORK</button></Link>
       </MediaQuery>
         
        

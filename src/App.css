@@ -26,13 +26,31 @@ margin-left:-300px;
   
   position: fixed;
   top: 0;
-margin-top:-300px;
+
   z-index: 1;
   display: flex;
+  background:rgba(0,0,0,0.6);
   
 
- width: 300px;
-  height: 200px;
+ width: 100vw;
+  height: 50px;
+  /* background: rgb(252, 250, 250); */
+
+
+ 
+}
+.navbar-mobile-work{
+  
+  position: fixed;
+  top: 0;
+
+  z-index: 1;
+  display: flex;
+  background:rgba(0,0,0,0.6);
+  
+
+ width: 100px ;
+  height: 100vw;
   /* background: rgb(252, 250, 250); */
 
 
@@ -61,7 +79,17 @@ html {
   list-style: none;
   width: 100vw;
   justify-content: center;
-  margin-left: 10%;
+  align-items: space-around;
+
+
+}
+.navbar-mobile-work ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  width: 100vw;
+  justify-content: center;
+
 
 }
 
@@ -81,11 +109,34 @@ margin: 5px;
 
   
 }
+.navbar-mobile-work ul li {
+  margin: 0;
+margin: 5px;
+  color: white;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: .5rem;
+
+  
+}
 
 .navbar ul li > .active {
   border-left: 4px solid rgb(224, 248, 156);
 
   padding-left: 10px;
+  text-decoration: none;
+ font-size: 1.2rem;
+  color: white
+}
+* {
+  margin:0;
+  padding:0
+}
+.navbar-mobile ul li > .active {
+  border-bottom: 2px solid rgb(224, 248, 156);
+
+  padding-bottom: 5px;
   text-decoration: none;
  font-size: 1.2rem;
   color: white
@@ -784,6 +835,22 @@ margin-left: 290px;
   overflow-y: auto;
   
 }
+.gallery-mobile {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(32, 5vw);
+  grid-gap: 15px;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+
+
+  border-radius: 0rem;
+  border-left: 4px solid #50637D;
+  overflow-y: auto;
+  
+}
 .gallery__img {
   width: 100%;
   height: 100%;
@@ -1040,3 +1107,18 @@ letter-spacing: 1rem;
 margin-bottom: -10px;
 }
 
+.work-button-mobile {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  padding: 10px;
+  width: 100px;
+  border-radius: 2rem;
+border: none;
+  letter-spacing: .2rem;
+  text-align: center
+}
+
+.work-button-mobile:active {
+  border: none;
+  outline: none;
+}

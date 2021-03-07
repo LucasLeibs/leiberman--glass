@@ -87,7 +87,7 @@ export default function Nav() {
   duration={3000}
   direction="alternate"
   delay={(el, index) => index * 240}
-  translateY='19rem'
+  translateY='0rem'
   scale={[.95, .9]}
   > 
       
