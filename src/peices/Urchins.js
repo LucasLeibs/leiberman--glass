@@ -52,35 +52,35 @@ export default function Urchins() {
     <MediaQuery maxWidth={700}>
       
     <div className="gallery-mobile">
-         <figure className="gallery__item-1-urchin">
+         <figure className="gallery__item-1-urchin-mobile">
       <img src={tallurchin1} className="contain"
        alt="Image 1"/>
        <p>Aqua Urchin - tall</p>
     </figure>
-         <figure className="gallery__item-2-urchin">
+         <figure className="gallery__item-2-urchin-mobile">
       <img src={tallurchin2}  className="contain" alt="Image 1"/>
       <p>Amethyst Urchin - tall</p>
     </figure>
-         <figure className="gallery__item-3-urchin">
+         <figure className="gallery__item-3-urchin-mobile">
       <img src={tallurchin3}  className="contain" alt="Image 1"/>
       <p>Aqua Urchin</p>
     </figure>
-         <figure className="gallery__item-4-urchin">
+         <figure className="gallery__item-4-urchin-mobile">
       <img src={tallurchin4}  className="contain" alt="Image 1"/>
       <p>Aurora Urchin</p>
     </figure>
-         <figure className="gallery__item-5-urchin">
+         <figure className="gallery__item-5-urchin-mobile">
       <img src={shorturchin}  className="gallery__img" alt="Image 1"/>
       <p>Aurora Urchin Slider</p>
     </figure>
-         <figure className="gallery__item-6-urchin">
+         <figure className="gallery__item-6-urchin-mobile">
       <img src={shorturchin2}  className="gallery__img" alt="Image 1"/>
       <p>Amethyst Urchin Slider</p>
     </figure>
       
      
         
-    <div className="ocotillo-desc">
+    <div className="ocotillo-desc-mobile">
       <h2>URCHIN VESSELS</h2>
       <p>Colorful, vibrant, sand etched vessels encompassing the spirit of the ocean.
       </p>
