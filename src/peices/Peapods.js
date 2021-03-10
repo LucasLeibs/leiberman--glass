@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import peapod1 from '../images/glass/IMG_7175.JPG'
 import peapod2 from '../images/glass/IMG_7179.JPG'
 import peapod3 from '../images/glass/IMG_7180.JPG'
@@ -6,16 +6,10 @@ import greenPeapod from '../images/glass/IMG_7188.JPG'
 import greenPeapod2 from '../images/glass/IMG_7191.JPG'
 import 'react-slideshow-image/dist/styles.css'
 import MediaQuery from 'react-responsive'
-const slideImages = [
-    greenPeapod,
-    peapod1,
-   greenPeapod2,
-    peapod2,
-  
-    peapod3
-  ];
+
   
 export default function Lanterns() {
+  
     return (
         <section id="peapods">
           
