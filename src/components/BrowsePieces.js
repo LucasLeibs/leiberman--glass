@@ -6,6 +6,7 @@ import Peapods from '../peices/Peapods'
 import Main from '../containers/Main'
 import Acrons from '../peices/Acrons'
 import Urchins from '../peices/Urchins'
+import MediaQuery from 'react-responsive'
 import {
   BrowserRouter as Router,
   Switch,
@@ -19,6 +20,7 @@ export default function BrowsePieces() {
   return (
     <Router>
       <ScrollToTop>
+        <MediaQuery minWidth={700}>
       <div className="container">
          <svg id="arrow" onClick={() => window.location.href = "http://localhost:3000/"} xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
@@ -38,25 +40,28 @@ export default function BrowsePieces() {
    
    
     </Switch>
-    
-        {/* <div className="image-container">
-          <img
-            onMouseOver={(e) => (e.currentTarget.src = red2)}
-            className="catalog-image"
-            src={red}
-            onMouseOut={(e) => (e.currentTarget.src = red)}
-          ></img>
-        </div>
-        <div className="image-container">
-          <img
-            onMouseOver={(e) => (e.currentTarget.src = blue2)}
-            className="catalog-image"
-            src={blue1}
-            onMouseOut={(e) => (e.currentTarget.src = blue1)}
-          ></img>
-          <p>BLUE</p>
-        </div> */}
       </div>
+      </MediaQuery>
+      <MediaQuery maxWidth={700}>
+      <div className="container">
+        
+        <WorkNav></WorkNav>
+        
+        <Switch>
+       
+        <Route exact path="/work" component={Urchins}/>
+      <Route exact path="/lanterns" component={Lanterns}/>
+      <Route exact path="/peapods" component={Peapods}/>
+      <Route exact path="/ocotillo" component={Ocotillow}/>
+      <Route exact path="/acorns" component={Acrons}/>
+      {/* <Route exact path="/work" component={BrowsePieces}/> */}
+  
+   
+   
+   
+    </Switch>
+      </div>
+      </MediaQuery>
       </ScrollToTop>
     </Router>
   );
