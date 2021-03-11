@@ -205,16 +205,17 @@ footer {
  
 }
 .footer-mobile  {
-  
-  height: 100px;
+  height: 10%;
   background: #50637D;
   color: white;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 0px 20px 0px 20px;
+  padding: 10px;
  width: 100vw;
+ font-size: .8rem;
+ text-align: center;
 }
 footer a {
   text-decoration: none;
@@ -335,7 +336,7 @@ border-top: 4px solid rgba(224, 248, 156);
 .form-container-mobile {
 width: 100vw;
 height: 100vh;
-
+padding-top: 30%;
 background: rgb(250, 246, 246);
 border-top: 4px solid rgba(224, 248, 156);
 
@@ -1212,6 +1213,7 @@ section#bowls {
 }
 section#contact {
   color: black;
+ 
 }
 .form-container h2 {
   color: black;

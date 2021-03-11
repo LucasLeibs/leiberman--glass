@@ -81,7 +81,7 @@ function App() {
     <footer className="footer-mobile"> 
      
       
-     <span><p>Leiberman Glass LLC.<p>P.O. Box 1086 <br></br>Langley, WA <br></br> 98260</p></p></span>
+     <span><p>Leiberman Glass<br></br>P.O. Box 1086 <br></br>Langley, WA <br></br> 98260</p></span>
      
      
      
