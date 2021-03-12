@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import tallurchin1 from '../images/urchins/IMG_3234.jpg'
-import tallurchin2 from '../images/urchins/IMG_3275.jpg' 
+// import tallurchin2 from '../images/urchins/IMG_3275.jpg' 
 import tallurchin3 from '../images/urchins/IMG_3325.jpg'
 import tallurchin4 from '../images/IMG_3291.jpg'
 import shorturchin from '../images/urchins/IMG_3334.jpg'
@@ -44,7 +44,7 @@ const x6 = <svg onClick={() => setModal({img6: !state.img6})} xmlns="http://www.
        <p>Aqua Urchin - tall</p>
     </figure>
          <figure className="gallery__item-2-urchin">
-      <img src={tallurchin2}  className="contain" alt="Image 1"/>
+      <img src={''}  className="contain" alt="Image 1"/>
       <p>Amethyst Urchin - tall</p>
     </figure>
          <figure className="gallery__item-3-urchin">
@@ -100,9 +100,9 @@ const x6 = <svg onClick={() => setModal({img6: !state.img6})} xmlns="http://www.
          {state.img2 ? <div className="modal">
    {x2}
     
-      <img className="modal-img"src={tallurchin2}></img>
+      <img className="modal-img"src={''}></img>
     </div> : ''}
-      <img src={tallurchin2}  className="contain" alt="Image 1"/>
+      <img src={''}  className="contain" alt="Image 1"/>
       <svg onClick={() => setModal({img2: !state.img2})} id="img1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
   <path d="M10.344 11.742c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1 6.538 6.538 0 0 1-1.398 1.4z"/>
