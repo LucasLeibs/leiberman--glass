@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import MediaQuery from 'react-responsive'
- import headshot from '../images/glass/IMG_0283.jpeg'
+ import headshot from '../images/glass/dad.jpg'
 export default function About() {
     const [readMore, openMore] = useState(false)
     const x = <svg onClick={() => openMore(false)} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
