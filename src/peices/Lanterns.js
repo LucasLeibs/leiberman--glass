@@ -31,7 +31,7 @@ export default function Lanterns() {
         <div className="gallery-mobile">
           <figure className="gallery__item-1-lantern-mobile">
             <img src={lantern} className="contain" alt="Image 1" />
-            <p>Red/Orange</p>
+            <p>Red/Orangee</p>
           </figure>
           <figure className="gallery__item-2-lantern-mobile">
             <img src={lantern2} className="contain" alt="Image 1" />
