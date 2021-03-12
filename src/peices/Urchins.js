@@ -45,7 +45,7 @@ const x6 = <svg onClick={() => setModal({img6: !state.img6})} xmlns="http://www.
     </figure>
          <figure className="gallery__item-2-urchin">
       <img src={tallurchin2}  className="contain" alt="Image 1"/>
-      <p>Amethyst Urchin - tall</p>
+      <p>Amethyst Urchin -- tall</p>
     </figure>
          <figure className="gallery__item-3-urchin">
       <img src={tallurchin3}  className="contain" alt="Image 1"/>
