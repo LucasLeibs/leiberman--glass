@@ -1,16 +1,15 @@
 import React, {useState} from 'react'
 
-import red2 from "../images/glass/IMG_7230.JPG";
-import logo from '../images/glass/logo.png'
+
 import blue from '../images/glass/IMG_7240.JPG'
 import red from '../images/glass/IMG_7236.JPG'
-import blue2 from '../images/glass/IMG_7198.JPG'
+
 import blue3 from '../images/glass/IMG_7202.JPG'
-import blueClose from '../images/glass/IMG_7206.JPG'
+
 import bluebowl from '../images/glass/IMG_7248.JPG'
-import blueclose2 from '../images/glass/IMG_7209.JPG'
+
 import ReactPlayer from 'react-player'
-import 'react-slideshow-image/dist/styles.css'
+
 import MediaQuery from 'react-responsive'
 
   

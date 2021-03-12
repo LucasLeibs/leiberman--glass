@@ -6,7 +6,7 @@ import tallurchin4 from '../images/urchins/IMG_3291.JPG'
 import shorturchin from '../images/urchins/IMG_3334.jpg'
 import shorturchin2 from '../images/urchins/IMG_3350.JPG'
 import MediaQuery from 'react-responsive'
-import x from '../Icons'
+
 export default function Urchins() {
 const [state, setModal] = useState({
   img1: false, img2: false, img3: false, img4:false, img5: false, img6:false

@@ -4,19 +4,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
   Link,
 } from "react-router-dom";
-import Nav from "./components/Nav";
-import Home from "./components/Home";
-import About from "./components/About";
-import Catalog from "./components/Catalog";
-import Contact from "./components/Contact";
 import BrowsePieces from "./components/BrowsePieces";
 import Main from "./containers/Main";
-import ReactDOM from "react-dom";
-import ScrollSnap from "scroll-snap";
-import logo from "./images/logo.png";
 import MediaQuery from "react-responsive";
 // import blue from '../images/glass/IMG_7240.JPG'
 
@@ -26,18 +17,18 @@ function callback() {
 function App() {
   const container = React.createRef();
 
-  const bindScrollSnap = () => {
-    const element = container.current;
-    const snapElement = new ScrollSnap(element, {
-      snapDestinationY: "90%",
-    });
+  // const bindScrollSnap = () => {
+  //   const element = container.current;
+  //   const snapElement = new ScrollSnap(element, {
+  //     snapDestinationY: "90%",
+  //   });
 
-    snapElement.bind(callback);
-  };
+  //   snapElement.bind(callback);
+  // };
 
-  useEffect(() => {
-    bindScrollSnap();
-  }, []);
+  // useEffect(() => {
+  //   bindScrollSnap();
+  // }, []);
   return (
     <Router>
       <div ref={container} className="container">
