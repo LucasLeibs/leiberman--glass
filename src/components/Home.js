@@ -8,7 +8,7 @@ export default function Home() {
       <MediaQuery minWidth={700}>
         <ReactPlayer
           className="react-player "
-          url="/videos/movie.mp4"
+          url="/videos/movie1.mp4"
           width="100vw"
           height="100vw"
           controls={false}

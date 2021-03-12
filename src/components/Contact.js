@@ -74,7 +74,7 @@ export default function Contact() {
         <div className="form-container-mobile">
           <h2>INQUIRE</h2>
           <ToastContainer
-            position="bottom-center"
+            position="top-center"
             autoClose={5000}
             hideProgressBar={true}
             newestOnTop={false}
