@@ -1,18 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 
 import { Link } from "react-router-dom";
 import MediaQuery from "react-responsive";
 import Anime from "react-anime";
 export default function WorkNav() {
+  
   const [navOpen, setNav] = useState(false);
   console.log(navOpen);
   const toggleNav = () => {
     setNav(!navOpen);
   };
+
   return (
     <div>
       <MediaQuery minWidth={700}>
-        <nav className="navbar">
+        <nav  className="navbar">
           <ul>
             <Anime
               loop={false}
@@ -59,7 +61,7 @@ export default function WorkNav() {
       </MediaQuery>
       <MediaQuery maxWidth={700}>
         {navOpen ? (
-          <nav className="navbar-mobile-work">
+          <nav onmousedown={() => setNav(false)} className="navbar-mobile-work">
             <svg
               onClick={() => toggleNav()}
               xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +116,7 @@ export default function WorkNav() {
                   <svg
                     id="arrow"
                     onClick={() =>
-                      (window.location.href = "http://localhost:3000/")
+                      (window.location.href = "https://master.d3evk3sp1ak1p2.amplifyapp.com")
                     }
                     xmlns="http://www.w3.org/2000/svg"
                     width="30"

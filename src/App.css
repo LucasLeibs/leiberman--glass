@@ -665,10 +665,10 @@ input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
 }
 
 .form-container-mobile input:focus, .form-container-mobile textarea:focus{
-  color: black;
-  width: 300px;
+  color: white;
+
   border: 2px solid #273241;
-  margin: 20px;
+ 
 
 }
 input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
@@ -814,14 +814,14 @@ textarea:hover {
   font-family: 'Lato', sans-serif;
   margin-top: 10px;
   font-size: 0.875em;
-  width: 50%;
-  max-width: 50%;
-  height: 50px;
-  padding: 0px 15px 0px 15px;
+
+ 
+
+
   
-  background: transparent;
+  background: #26303D;
   outline: none;
-  color: #726659;
+  color: white;
   
   border: solid 0.5px rgb(134, 137, 146);
   border-radius: 1rem;
