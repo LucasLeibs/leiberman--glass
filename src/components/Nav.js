@@ -128,7 +128,7 @@ export default function Nav() {
       offset={0}
       duration={750}
     >
-      WORK
+      WORKy
     </Linky>
   </li>
   <li>
