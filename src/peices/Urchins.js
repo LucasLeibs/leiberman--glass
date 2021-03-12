@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import tallurchin1 from '../images/urchins/IMG_3234.jpg'
-import tallurchin2 from '../images/urchins/IMG_3275.JPG'
-import tallurchin3 from '../images/urchins/IMG_3325.JPG'
-import tallurchin4 from '../images/urchins/IMG_3291.JPG'
+import tallurchin2 from '../images/urchins/IMG_3275.jpg' 
+import tallurchin3 from '../images/urchins/IMG_3325.jpg'
+import tallurchin4 from '../images/urchins/IMG_3291.jpg'
 import shorturchin from '../images/urchins/IMG_3334.jpg'
-import shorturchin2 from '../images/urchins/IMG_3350.JPG'
+import shorturchin2 from '../images/urchins/IMG_3350.jpg'
 import MediaQuery from 'react-responsive'
 
 export default function Urchins() {
