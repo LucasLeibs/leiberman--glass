@@ -9,6 +9,7 @@ import {
 import BrowsePieces from "./components/BrowsePieces";
 import Main from "./containers/Main";
 import MediaQuery from "react-responsive";
+import ScrollSnap from "scroll-snap"
 // import blue from '../images/glass/IMG_7240.JPG'
 
 function callback() {
@@ -17,18 +18,18 @@ function callback() {
 function App() {
   const container = React.createRef();
 
-  // const bindScrollSnap = () => {
-  //   const element = container.current;
-  //   const snapElement = new ScrollSnap(element, {
-  //     snapDestinationY: "90%",
-  //   });
+  const bindScrollSnap = () => {
+    const element = container.current;
+    const snapElement = new ScrollSnap(element, {
+      snapDestinationY: "50%",
+    });
 
-  //   snapElement.bind(callback);
-  // };
+    snapElement.bind(callback);
+  };
 
-  // useEffect(() => {
-  //   bindScrollSnap();
-  // }, []);
+  useEffect(() => {
+    bindScrollSnap();
+  }, []);
   return (
     <Router>
       <div ref={container} className="container">
