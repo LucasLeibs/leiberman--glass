@@ -67,14 +67,19 @@ export default function WorkNav() {
             <svg
               onClick={() => toggleNav()}
               xmlns="http://www.w3.org/2000/svg"
-              width="45"
-              height="45"
+              width="30"
+              height="30"
               fill="currentColor"
               class="bi bi-x"
               viewBox="0 0 16 16"
+              id="close-x"
             >
               <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
             </svg>
+            <svg  onClick={window.location.href = "https://master.d3evk3sp1ak1p2.amplifyapp.com"}id="home-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+</svg>
             <ul>
               <Anime
                 loop={false}
@@ -114,25 +119,7 @@ export default function WorkNav() {
                     ACORNS
                   </Link>
                 </li>
-                <li>
-                  <svg
-                    id="arrow"
-                    onClick={() =>
-                      (window.location.href = "https://master.d3evk3sp1ak1p2.amplifyapp.com")
-                    }
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="30"
-                    height="30"
-                    fill="currentColor"
-                    class="bi bi-arrow-left"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
-                    />
-                  </svg>
-                </li>
+               
               </Anime>
             </ul>
           </nav>
