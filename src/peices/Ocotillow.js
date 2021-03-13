@@ -8,7 +8,7 @@ import blue3 from '../images/glass/bluelean.jpg'
 
 import bluebowl from '../images/glass/bluebowl.jpg'
 
-import ReactPlayer from 'react-player'a
+import ReactPlayer from 'react-player'
 
 import MediaQuery from 'react-responsive'
 
