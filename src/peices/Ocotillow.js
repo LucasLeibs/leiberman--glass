@@ -196,8 +196,8 @@ export default function Ocotillow() {
       
   <div className="ocotillo-desc">
     <h2>OCOTILLO</h2>
-    <p>These sand etched textural vessels are reminiscent of the ocotillo plant found throughout the southwestern region of the United States.
-    </p>
+    
+   
   </div>
   </div>
     </MediaQuery>
