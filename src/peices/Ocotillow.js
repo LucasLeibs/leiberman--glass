@@ -146,8 +146,8 @@ export default function Ocotillow() {
     <svg
               onClick={() => setModal({ img4: !state.img4 })}
               xmlns="http://www.w3.org/2000/svg"
-              width="14"
-              height="14"
+              width="20"
+              height="20"
               fill="currentColor"
               class="bi bi-zoom-in"
               viewBox="0 0 16 16"
@@ -174,8 +174,8 @@ export default function Ocotillow() {
     <svg
               onClick={() => setModal({ img4: !state.img4 })}
               xmlns="http://www.w3.org/2000/svg"
-              width="14"
-              height="14"
+              width="20"
+              height="20"
               fill="currentColor"
               class="bi bi-zoom-in"
               viewBox="0 0 16 16"

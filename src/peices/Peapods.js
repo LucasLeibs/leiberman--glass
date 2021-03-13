@@ -28,7 +28,7 @@ export default function Lanterns() {
       
   <div className="ocotillo-desc">
     <h2>PEAPODS</h2>
-    <p>A Simply elegant seed vessel, holding three pure silver leaf covered, solid glass peas.
+    <p>A simply elegant seed vessel, holding three pure silver leaf covered, solid glass peas.
     </p>
   </div>
   </div>

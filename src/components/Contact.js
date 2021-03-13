@@ -84,7 +84,7 @@ export default function Contact() {
             draggable
             pauseOnHover={false}
           />
-          <form onSubmit={(e) => sendEmail(e)} id="form" class="topBefore">
+          <form onSubmit={(e) => sendEmail(e)} class="topBefore">
             <input
               onChange={(e) => trackName(e)}
               id="name"
@@ -99,7 +99,7 @@ export default function Contact() {
               placeholder="MESSAGE"
               name="message"
             ></textarea>
-            <input id="submit" type="submit" value="SEND" />
+            <input id="submit-mobile" type="submit" value="SEND" />
           </form>
         </div>
       </MediaQuery>

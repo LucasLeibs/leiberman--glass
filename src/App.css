@@ -341,13 +341,21 @@ border-top: 4px solid #26303D;
 
 }
 
+.form-container-mobile form {
+  display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+
+}
+
 .form-container-mobile input {
   font-family: 'Lato', sans-serif;
   margin-top: 10px;
   font-size: 0.8em;
-  width: 250px;
-float: left;
-margin-left: 45px;
+  width: 200px;
+
+
   height: 50px;
   padding: 0px 15px 0px 15px;
   
@@ -364,10 +372,10 @@ margin-left: 45px;
   -ms-transition: all 0.3s ease-in-out
 }
 .form-container-mobile textarea {
-  width: 300px;
-  margin-left: 20px;
-  float: left;
-  max-width: 100%;
+  width: 250px;
+ 
+
+ 
   height: 110px;
   max-height: 110px;
   padding: 15px;
@@ -388,13 +396,14 @@ margin-left: 45px;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
 }
-.form-container-mobile #submit {
-  width: 400px;
-  margin-left: 30px;
+.form-container-mobile #submit-mobile {
+  width: 250px;
+ 
+  
 }
-.form-container-mobile #submit:active {
-  width: 400px;
-  margin-left: 30px;
+.form-container-mobile #submit-mobile:active {
+  width: 250px;
+margin-left: 0;
 }
 
 .glass-container h2{
@@ -1257,12 +1266,12 @@ cursor: pointer
  .gallery p {
   padding: 1rem;
   color: black;
-  letter-spacing: 2px;
+ 
  }
  .gallery-mobile p {
  
   color: black;
-  letter-spacing: 2px;
+  
  }
  .gallery h2 {
   letter-spacing: 3px;

@@ -35,8 +35,8 @@ export default function About() {
             <img src={headshot}></img>
             <span>
            
-           <p>Eric now resides and maintains a studio on Whidbey Island, some 35
-                miles North of Seattle, Washington. His work is shown in galleries nationwide.</p>
+           <p>Eric resides and maintains a studio on beautiful Whidbey Island, some 35
+                miles North of Seattle, Washington.</p>
                 </span>
         </div>
         </div>

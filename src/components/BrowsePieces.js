@@ -7,6 +7,7 @@ import Main from '../containers/Main'
 import Acrons from '../peices/Acrons'
 import Urchins from '../peices/Urchins'
 import MediaQuery from 'react-responsive'
+import { useLocation } from "react-router-dom";
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,7 +17,7 @@ import {
 } from "react-router-dom";
 
 export default function BrowsePieces() {
- 
+ const { path } = useLocation()
   return (
     <Router>
       <ScrollToTop>

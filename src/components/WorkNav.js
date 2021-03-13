@@ -3,14 +3,16 @@ import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import MediaQuery from "react-responsive";
 import Anime from "react-anime";
+
 export default function WorkNav() {
-  
+ 
   const [navOpen, setNav] = useState(false);
   console.log(navOpen);
   const toggleNav = () => {
-    setNav(!navOpen);
+    setNav(!navOpen); 
   };
 
+ 
   return (
     <div>
       <MediaQuery minWidth={700}>
@@ -34,7 +36,7 @@ export default function WorkNav() {
               </li>
               <li>
                 {" "}
-                <Link className="link" to="/peapods">
+                <Link  className="link" to="/peapods">
                   PEAPODS
                 </Link>
               </li>
@@ -86,29 +88,29 @@ export default function WorkNav() {
                   <h1>WORK</h1>{" "}
                 </li>
                 <li>
-                  <Link className="link" to="/work">
+                  <Link onClick={() => setNav(false)} className="link" to="/work">
                     URCHINS
                   </Link>
                 </li>
                 <li>
                   {" "}
-                  <Link className="link" to="/peapods">
+                  <Link onClick={() => setNav(false)} className="link" to="/peapods">
                     PEAPODS
                   </Link>
                 </li>
                 <li>
-                  <Link className="link" to="/lanterns">
+                  <Link onClick={() => setNav(false)} className="link" to="/lanterns">
                     LANTERNS
                   </Link>
                 </li>
                 <li>
-                  <Link className="link" to="/ocotillo">
+                  <Link onClick={() => setNav(false)} className="link" to="/ocotillo">
                     OCOTILLO
                   </Link>
                 </li>
 
                 <li>
-                  <Link className="link" to="/acorns">
+                  <Link onClick={() => setNav(false)} className="link" to="/acorns">
                     ACORNS
                   </Link>
                 </li>
