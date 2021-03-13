@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
-import acornspread from "../images/acorns/acorns.jpg";
-import green from "../images/acorns/IMG_3138.JPG";
-import red from "../images/acorns/IMG_3141.JPG";
-import olive from "../images/acorns/IMG_3139.JPG";
-import autumn from "../images/acorns/IMG_3135.JPG";
+import acornspread from "../images/acorns/acronspread.jpg";
+import green from "../images/acorns/green.jpg";
+import red from "../images/acorns/red.jpg";
+import olive from "../images/acorns/olive.jpg";
+import autumn from "../images/acorns/pink.jpg";
 import MediaQuery from "react-responsive";
 export default function Acrons() {
   const [state, setModal] = useState({

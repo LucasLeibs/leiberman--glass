@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
-import peapod3 from '../images/glass/IMG_7180.JPG'
-import greenPeapod from '../images/glass/IMG_7188.JPG'
+import peapod3 from '../images/glass/redpea.jpg'
+import greenPeapod from '../images/glass/greenpea.jpg'
 
 
 import MediaQuery from 'react-responsive'

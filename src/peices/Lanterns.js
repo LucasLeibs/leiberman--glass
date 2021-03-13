@@ -1,6 +1,6 @@
 import React from "react";
-import lantern from "../images/glass/IMG_7171.JPG";
-import lantern2 from "../images/glass/IMG_7172.JPG";
+import lantern from "../images/glass/redlantern1.jpg";
+import lantern2 from "../images/glass/redlantern2.jpg";
 
 import MediaQuery from "react-responsive";
 

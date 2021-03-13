@@ -1,14 +1,14 @@
 import React, {useState} from 'react'
 
 
-import blue from '../images/glass/IMG_7240.JPG'
-import red from '../images/glass/IMG_7236.JPG'
+import blue from '../images/glass/blueice.jpg'
+import red from '../images/glass/redlean.jpg'
 
-import blue3 from '../images/glass/IMG_7202.JPG'
+import blue3 from '../images/glass/bluelean.jpg'
 
-import bluebowl from '../images/glass/IMG_7248.JPG'
+import bluebowl from '../images/glass/bluebowl.jpg'
 
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player'a
 
 import MediaQuery from 'react-responsive'
 
