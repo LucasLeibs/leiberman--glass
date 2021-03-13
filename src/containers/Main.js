@@ -9,12 +9,12 @@ export default function Main() {
   return (
       
     <div>
-        <ScrollToTop>
+    
       <Nav></Nav>
       <Home></Home>
       <About></About>
       <Contact></Contact>
-      </ScrollToTop>
+     
     </div>
   );
 }
