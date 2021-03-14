@@ -40,6 +40,7 @@ export default function Contact() {
        </Button> */}
         <div className="form-container">
           <h2>INQUIRE</h2>
+          <p> - To inuire about a peice send Eric a message here - </p>
           <ToastContainer
             position="top-right"
             autoClose={5000}
@@ -73,6 +74,7 @@ export default function Contact() {
       <MediaQuery maxWidth={700}>
         <div className="form-container-mobile">
           <h2>INQUIRE</h2>
+          <p>- To inuire about a peice send Eric a message here -</p>
           <ToastContainer
             position="top-center"
             autoClose={5000}

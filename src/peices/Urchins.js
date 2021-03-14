@@ -68,8 +68,7 @@ const x6 = <svg onClick={() => setModal({img6: !state.img6})} xmlns="http://www.
         
     <div className="ocotillo-desc">
       <h2>URCHIN VESSELS</h2>
-      <p>Colorful, vibrant, sand etched vessels encompassing the spirit of the ocean.
-      </p>
+     
     </div>
     </div>
     </MediaQuery>
