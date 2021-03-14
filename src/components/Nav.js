@@ -8,6 +8,7 @@ export default function Nav() {
   
   return (
    <div>
+     
      <MediaQuery minWidth={700}>
       <nav className="navbar">
 
@@ -30,8 +31,7 @@ export default function Nav() {
               smooth={true}
               offset={0}
               duration={750}
-            >
-              LEIBERMAN GLASS
+            >LEIBERMAN GLASS
             </Link>
           </li>
           <li>
