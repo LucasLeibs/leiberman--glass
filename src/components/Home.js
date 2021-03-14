@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import ReactPlayer from "react-player";
 import MediaQuery from "react-responsive";
@@ -9,6 +9,8 @@ import shelter3 from '../images/glass/shelter3.jpg'
 import blue from '../images/glass/bluelean.jpg'
 import Anime from 'react-anime'
 export default function Home() {
+const [isShown, showIt] = useState(false)
+  console.log(showIt)
   return (
     <section id="home">
       <MediaQuery minWidth={700}>
@@ -17,7 +19,7 @@ export default function Home() {
 
 
    
-        <figure className="home-image-1">
+        <figure onMouseEnter={() => showIt(true)}  className="home-image-1">
           <img className="home1" src={shelter}></img>
         </figure>
         
