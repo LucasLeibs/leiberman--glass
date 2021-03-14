@@ -38,7 +38,26 @@ const [isShown, showIt] = useState(false)
       </MediaQuery>
       <MediaQuery maxWidth={700}>
         <h2 className="mobile-title">LEIBERMAN GLASS</h2>
-        <ReactPlayer
+        <div className="home-gallery-mobile">
+
+
+   
+        <figure onMouseEnter={() => showIt(true)}  className="home-image-1">
+          <img className="home1" src={shelter}></img>
+        </figure>
+        
+        <figure className="home-image-2">
+          <img className="home1" src={urchin}></img>
+        </figure>
+        <figure className="home-image-3">
+          <img className="home1" src={blue}></img>
+        </figure>
+        <figure className="home-image-4">
+          <img className="home1" src={shelter3}></img>
+        </figure>
+       
+        </div>
+        {/* <ReactPlayer
           className="react-player "
           url="/videos/movie.mov"
           width="90vw"
@@ -47,7 +66,7 @@ const [isShown, showIt] = useState(false)
           loop={true}
           playing={true}
           muted={true}
-        />
+        /> */}
         <Link to="/work">
           <button className="work-button-mobile">WORK</button>
         </Link>
