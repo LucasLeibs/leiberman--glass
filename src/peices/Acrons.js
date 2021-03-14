@@ -123,7 +123,7 @@ export default function Acrons() {
           <div className="ocotillo-desc">
             <h2>ACORN PAPERWEIGHTS</h2>
             <p>
-              The acorn has been known as a symbol of prosperity and good luck.
+              The acorn is known as a symbol of prosperity and good luck.
               These jewel tone paperwights make a beautiful accent for any home
               or office.
             </p>
@@ -141,20 +141,7 @@ export default function Acrons() {
               alt="Image 1"
             />
           </figure>
-          <figure className="gallery__item-1-mobile">
-            <ReactPlayer
-              className="react-player "
-              url="/videos/acorns.mp4"
-              width="100%"
-              height="100%"
-              controls={false}
-              loop={true}
-              playing={true}
-              muted={true}
-            />
-
-            {/* <img src={blue} className="gallery__img" alt="Image 1"/> */}
-          </figure>
+          
           <figure className="gallery__item-3-acorns-mobile">
             {state.img1 ? (
               <div className="modal">
@@ -289,7 +276,15 @@ export default function Acrons() {
               />
             </svg>
             <p>Cranberry</p>
-            <p>Colors not shown in set: <span style={{color: '#750fa8'}}></span>, Amber, Capri Blue</p>
+            <br></br>
+            <div className="colorspread">
+            <p>Colors not pictured</p>
+            <div>
+            <p>Amethyst<span></span></p>
+            <p>Aqua<span id="blue-picker"></span></p>
+            <p>Amber<span id="amber"></span></p>
+            </div>
+          </div>
           </figure>
           <figure className="gallery__item-acorn-arrow">
             
@@ -298,7 +293,7 @@ export default function Acrons() {
           <div className="ocotillo-desc-mobile">
             <h2>ACORN PAPERWEIGHTS</h2>
             <p>
-              The acorn has been known as a symbol of prosperity and good luck.
+              The acorn is known as a symbol of prosperity and good luck.
               These jewel tone paperwights make a beautiful accent for any home
               or office.
             </p>

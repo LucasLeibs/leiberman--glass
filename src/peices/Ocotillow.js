@@ -80,21 +80,6 @@ export default function Ocotillow() {
     <section id="bowls">
       <MediaQuery minWidth={700}>
       <div className="gallery">
-       <figure className="gallery__item-2">
-       <ReactPlayer
-            className='react-player '
-            url= '/videos/intro2.mp4'
-            width ='100%'
-            height='100%'
-
-            controls = {false}
-            loop = {true}
-            playing={true}
-            muted={true}
-            />
-
-    {/* <img src={blue} className="gallery__img" alt="Image 1"/> */}
-  </figure>
        <figure className="gallery__item-1">
     <img src={blue} className="gallery__img" alt="Image 1"/>
   </figure>
@@ -121,21 +106,7 @@ export default function Ocotillow() {
   </MediaQuery>
   <MediaQuery maxWidth={700}>
   <div className="gallery-mobile">
-       <figure className="gallery__item-2-mobile">
-       <ReactPlayer
-            className='react-player '
-            url= '/videos/intro2.mp4'
-            width ='100%'
-            height='100%'
-
-            controls = {false}
-            loop = {true}
-            playing={true}
-            muted={true}
-            />
-
-    {/* <img src={blue} className="gallery__img" alt="Image 1"/> */}
-  </figure>
+       
        <figure className="gallery__item-1-mobile">
     <img src={blue} className="gallery__img" alt="Image 1"/>
   </figure>
