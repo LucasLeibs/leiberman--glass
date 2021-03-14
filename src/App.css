@@ -1285,6 +1285,48 @@ color:#26303D
   margin-top: 10px;
   
 }
+
+.colorspread {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width: 200px;
+  
+}
+.colorspread div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+.colorspread span {
+  height: 25px;
+  width: 35px;
+  margin:10px;
+
+  display: inline-block;
+
+  background-color: #750fa8
+}
+#blue-picker {
+height: 25px;
+width: 35px;
+
+margin:10px;
+display: inline-block;
+
+background-color:#0686c2
+}
+#amber {
+height: 25px;
+width: 35px;
+
+margin:10px;
+display: inline-block;
+
+background-color:#e8b02e
+}
 #opacity {
   object-fit: stretch
 }

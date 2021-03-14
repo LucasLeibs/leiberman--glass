@@ -110,7 +110,14 @@ export default function Acrons() {
           <figure className="gallery__item-6-acorns">
             <img src={red} className="contain" alt="Image 1" />
             <p>Cranberry</p>
-            <p>Colors not shown in set: Amethyst, Amber, Capri Blue</p>
+          <div className="colorspread">
+            <p>Colors not pictured</p>
+            <div>
+            <p>Amethyst<span></span></p>
+            <p>Aqua<span id="blue-picker"></span></p>
+            <p>Amber<span id="amber"></span></p>
+            </div>
+          </div>
           </figure>
 
           <div className="ocotillo-desc">
@@ -282,7 +289,7 @@ export default function Acrons() {
               />
             </svg>
             <p>Cranberry</p>
-            <p>Colors not shown in set: Amethyst, Amber, Capri Blue</p>
+            <p>Colors not shown in set: <span style={{color: '#750fa8'}}></span>, Amber, Capri Blue</p>
           </figure>
           <figure className="gallery__item-acorn-arrow">
             
