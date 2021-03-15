@@ -19,14 +19,14 @@ export default function About() {
             have in our lives. 
             We depend upon plants for sustenence and the air we breathe. 
             They have the power to heal the sick, poison the unwary, and alter the state of human conciousness. 
-            Flowers are given to communicate what words alone cannot: expressions of love or grief,  
+            Flowers are given to communicate what words alone cannot: expressions of love or grief, or  
             celebrations of birth and marriage. 
-            We have used plants, actually, or symbolically, in worship and spiritual rituals since our beginning. 
+            We have used plants, actually or symbolically, in worship and spiritual rituals since our beginning. 
             <br></br>
             <br></br>
             In my work, I try to communicate my inspiration; the beauty and the mystery of the natural world. 
             The fluid motion of glass and the application of color are used to represent the myriad patterns present in nature. 
-            Surface textures produced from techniques such as sandblasting, acid etching, and the use of the precious metals evoke 
+            The surface textures produced from techniques such as sandblasting, acid etching, and the use of the precious metals evoke 
             veins in a leaf, the subtle intricacy of a coiling vine, or the exhuberance of tropical blossoms.
 
              </p>
@@ -35,8 +35,8 @@ export default function About() {
             <img src={headshot}></img>
             <span>
            
-           <p>Eric resides and maintains a studio on beautiful Whidbey Island, some 35
-                miles North of Seattle, Washington.</p>
+           <p>Eric resides and maintains a studio on beautiful Whidbey Island, 35
+                miles north of Seattle, Washington.</p>
                 </span>
         </div>
         </div>
@@ -46,18 +46,18 @@ export default function About() {
       
         <article>
             {readMore ? <div className="read-more-container-mobile"><button className="read-less-button">{x}</button><p> My work represents an exploration into my fascination with natural forms, and the profound influence they 
-            have in our lives...
+            have in our lives.
 
             We depend upon plants for sustenence and the air we breathe. 
             They have the power to heal the sick, poison the unwary, and alter the state of human conciousness. 
-            Flowers are given to communicate what words alone cannot: expressions of love or grief,  
+            Flowers are given to communicate what words alone cannot: expressions of love or grief, or 
             celebrations of birth and marriage. 
-            We have used plants, actually, or symbolically, in worship and spiritual rituals since our beginning.  
+            We have used plants, actually or symbolically, in worship and spiritual rituals since our beginning.  
              <br></br>
            
             In my work, I try to communicate my inspiration; the beauty and the mystery of the natural world. 
-            The fluid motion of glass and the application of color are used to represent the myriad patterns present in nature. 
-            Surface textures produced from techniques such as sandblasting, acid etching, and the use of the precious metals evoke 
+            The fluid motion of glass and the application of color are used to represent the myriad patterns present in nature. The
+            surface textures produced from techniques such as sandblasting, acid etching, and the use of the precious metals evoke 
             veins in a leaf, the subtle intricacy of a coiling vine, or the exhuberance of tropical blossoms.  
              </p></div> : ''}
         <h2>ERIC LEIBERMAN</h2>
@@ -86,8 +86,8 @@ export default function About() {
             <img src={headshot}></img>
             <span>
            
-           <p>Eric resides and maintains a studio on beautiful Whidbey Island, some 35
-                miles North of Seattle, Washington.</p>
+           <p>Eric resides and maintains a studio on beautiful Whidbey Island, 35
+                miles north of Seattle, Washington.</p>
                 </span>
         </div>
         

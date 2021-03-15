@@ -1511,7 +1511,7 @@ border: none;
 
 .modal-img {
   margin: auto;
- margin-top: 20px;
+ margin-top: 30px;
   width: 90%;
  
 }
@@ -1535,7 +1535,7 @@ border: none;
   color:white;
   padding: 5px;
 
-  border-radius:5rem;
+  border-radius:50%;
 border: none;
   margin-top: 10px;
   text-align: center;
