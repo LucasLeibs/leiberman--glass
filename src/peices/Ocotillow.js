@@ -82,19 +82,21 @@ export default function Ocotillow() {
       <div className="gallery">
        <figure className="gallery__item-1">
     <img src={blue} className="gallery__img" alt="Image 1"/>
+    <p>Aqua Ocotillo Bowl</p>
   </figure>
      
   <figure className="gallery__item-3">
     <img  src={blue3}  className="contain" alt="Image 1"/>
+    <p>Aqua Ocotillo Vessel</p>
   </figure>
        <figure className="gallery__item-4">
     <img src={bluebowl} className="contain" alt="Image 1"/>
-
+      <p>Aqua Ocotillo Bowl</p>
    
   </figure>
        <figure className="gallery__item-5">
     <img src={red}  className="contain" alt="Image 1"/>
-    
+    <p>Sunset Ocotillo Vessel</p>
   </figure>
    
       
