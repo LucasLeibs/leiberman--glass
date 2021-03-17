@@ -67,7 +67,7 @@ function App() {
                     >
                       BAM Arts Festival
                     </a>
-                    <br></br> Best in Show 2x Bellevue, WA
+                    <br></br> Best in Show 2x <br></br>Bellevue, WA
                   </p>
                 </div>
                 <div className="award">
@@ -82,7 +82,7 @@ function App() {
                     >
                       Kimball Arts Festival
                     </a>
-                    <br></br> Best in Show Park City, UT
+                    <br></br> Best in Show<br></br> Park City, UT
                   </p>
                 </div>
                 <div className="award">
@@ -97,7 +97,7 @@ function App() {
                     >
                       Cherry Creek Arts Festival
                     </a>
-                    <br></br> Best in Glass Denver, CO
+                    <br></br> Best in Glass<br></br> Denver, CO
                   </p>
                 </div>
               </div>

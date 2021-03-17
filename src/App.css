@@ -330,6 +330,7 @@ footer a {
   text-decoration: none;
   border-bottom: 1px solid rgba(224, 248, 156);
   padding-bottom: 3px;
+  color: white;
 }
 footer a:hover {
   color: skyblue!important;
@@ -559,7 +560,7 @@ margin-bottom:2vw
 }
 
 .glass-container article {
-  margin:  0vw 0vw 0vw 0vw;
+  margin:  0vw 0vw 0vw 5vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
