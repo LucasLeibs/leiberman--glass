@@ -79,20 +79,7 @@ export default function Acrons() {
               alt="Image 1"
             />
           </figure>
-          <figure className="gallery__item-1">
-            <ReactPlayer
-              className="react-player "
-              url="/videos/acorns.mp4"
-              width="100%"
-              height="100%"
-              controls={false}
-              loop={true}
-              playing={true}
-              muted={true}
-            />
-
-            {/* <img src={blue} className="gallery__img" alt="Image 1"/> */}
-          </figure>
+         
           <figure className="gallery__item-3-acorns">
             <img src={autumn} className="contain" alt="Image 1" />
             <p>Aurora</p>
