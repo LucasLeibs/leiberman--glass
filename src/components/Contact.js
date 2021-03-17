@@ -33,12 +33,46 @@ export default function Contact() {
 
   return (
     <section id="contact">
-      <MediaQuery minWidth={700}>
+      <MediaQuery minWidth={1270}>
         {/* <h1>INQUIRE ABOUT A PIECE</h1>
         <Button variant="contained" >
        <MailOutlineRoundedIcon style={{ fontSize: 40 }}></MailOutlineRoundedIcon>
        </Button> */}
         <div className="form-container">
+          <h2>INQUIRE</h2>
+          <p> - To inquire about a piece send Eric a message here - </p>
+          <ToastContainer
+            position="top-right"
+            autoClose={5000}
+            hideProgressBar={true}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover={false}
+          />
+          <form onSubmit={(e) => sendEmail(e)} id="form" class="topBefore">
+            <input
+              onChange={(e) => trackName(e)}
+              id="name"
+              type="text"
+              placeholder="NAME"
+              name="name"
+            />
+            <input id="email" type="text" placeholder="E-MAIL" name="email" />
+            <textarea
+              id="message"
+              type="text"
+              placeholder="MESSAGE"
+              name="message"
+            ></textarea>
+            <input id="submit" type="submit" value="SEND" />
+          </form>
+        </div>
+      </MediaQuery>
+      <MediaQuery maxWidth={1269} minWidth={701}>
+      <div className="form-container-mid">
           <h2>INQUIRE</h2>
           <p> - To inquire about a piece send Eric a message here - </p>
           <ToastContainer

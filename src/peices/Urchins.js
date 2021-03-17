@@ -7,7 +7,7 @@ import shorturchin from '../images/urchins/redslider.jpg'
 import shorturchin2 from '../images/urchins/purpleslider.jpg'
 import MediaQuery from 'react-responsive'
 
-export default function Urchins() {
+export default function Urchins(setNav) {
 const [state, setModal] = useState({
   img1: false, img2: false, img3: false, img4:false, img5: false, img6:false
 })
@@ -31,6 +31,7 @@ const x5 = <svg onClick={() => setModal({img5: !state.img5})} xmlns="http://www.
 const x6 = <svg onClick={() => setModal({img6: !state.img6})} xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
 </svg>
+console.log(setNav)
     return (
         <section id="urchins">
           
@@ -39,12 +40,12 @@ const x6 = <svg onClick={() => setModal({img6: !state.img6})} xmlns="http://www.
         <div className="gallery">
          <figure className="gallery__item-1-urchin">
       <img src={tallurchin1} className="contain"
-       alt="Image 1"/>
+       alt="tall aqua urchin "/>
  
        <p>Aqua Urchin - tall</p>
     </figure>
          <figure className="gallery__item-2-urchin">
-      <img src={tallurchin2}  className="contain" alt="Image 1"/>
+      <img src={tallurchin2}  className="contain" alt="tall amethyst urchin"/>
       <p>Amethyst Urchin - tall</p>
     </figure>
          <figure className="gallery__item-3-urchin">

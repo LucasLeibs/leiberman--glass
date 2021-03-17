@@ -8,7 +8,7 @@ export default function About() {
 </svg>
     return (
         <section id="about">
-            <MediaQuery minWidth={700}>
+            <MediaQuery minWidth={1270}>
             <div className='glass-container'>
             
         <article>
@@ -41,7 +41,7 @@ export default function About() {
         </div>
         </div>
         </MediaQuery>
-        <MediaQuery maxWidth={700}>
+        <MediaQuery maxWidth={1269}>
         <div className='glass-container-mobile'>
       
         <article>

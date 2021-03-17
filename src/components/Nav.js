@@ -9,7 +9,7 @@ export default function Nav() {
   return (
    <div>
      
-     <MediaQuery minWidth={700}>
+     <MediaQuery minWidth={1270}>
       <nav className="navbar">
 
         <ul>
@@ -78,7 +78,7 @@ export default function Nav() {
         </ul>
       </nav>
       </MediaQuery>
-      <MediaQuery oreintation="portrait" maxWidth={700}>
+      <MediaQuery oreintation="portrait" maxWidth={1269}>
       <nav className="navbar-mobile">
 
 <ul>

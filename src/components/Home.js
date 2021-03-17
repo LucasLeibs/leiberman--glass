@@ -13,7 +13,7 @@ const [isShown, showIt] = useState(false)
   console.log(showIt)
   return (
     <section id="home">
-      <MediaQuery minWidth={700}>
+      <MediaQuery minWidth={1270}>
       
         <div className="home-gallery">
 
@@ -36,7 +36,8 @@ const [isShown, showIt] = useState(false)
         </div>
      
       </MediaQuery>
-      <MediaQuery maxWidth={700}>
+     
+      <MediaQuery maxWidth={1269}>
         <h2 className="mobile-title">LEIBERMAN GLASS</h2>
         <div className="home-gallery-mobile">
 

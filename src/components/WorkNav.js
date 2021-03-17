@@ -14,7 +14,8 @@ export default function WorkNav() {
 
  
   return (
-    <div>
+    
+    <div >
       <MediaQuery minWidth={700}>
         <nav  className="navbar">
           <ul>
@@ -62,8 +63,9 @@ export default function WorkNav() {
         </nav>
       </MediaQuery>
       <MediaQuery maxWidth={700}>
+        
         {navOpen ? (
-          <nav  className="navbar-mobile-work">
+          <nav  onMouseOut={() => setNav(false)} className="navbar-mobile-work">
             <svg
               onClick={() => toggleNav()}
               xmlns="http://www.w3.org/2000/svg"
@@ -139,6 +141,7 @@ export default function WorkNav() {
             />
           </svg>
         )}
+        
       </MediaQuery>
     </div>
   );
