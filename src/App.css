@@ -458,8 +458,7 @@ text-align: center;
 width: 100vw;
 height: 100vh;
 padding-top: 30%;
-background: rgb(250, 246, 246);
-border-top: 4px solid #26303D;
+background: rgb(240, 240, 245);
 
 }
 .form-container-mobile h2 {
@@ -538,15 +537,7 @@ font-weight: bolder;
 font-size: 2rem;
 
 }
-.glass-container-mobile h2{
-margin-top: 5vw;
-margin-left: 5vw;
-letter-spacing: 1rem;
-font-weight: bolder;
-font-size: 1.5rem;
-margin-bottom: 5vw;
 
-}
 .glass-container h3{
 border-bottom: 4px solid  rgba(224, 248, 156);
 letter-spacing:.5rem;
@@ -561,7 +552,8 @@ letter-spacing:.5rem;
 padding-bottom: 5px;
 
 font-weight: bolder;
-margin-top: 5px;
+margin-top: 5vw;
+margin-bottom:2vw
 }
 
 .glass-container article {
@@ -587,8 +579,8 @@ padding-right: 50px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align:center;
-
+  text-align: center;
+text-overflow: hidden;
 
 }
 
@@ -620,6 +612,7 @@ object-fit: contain;
 width: 75%;
 height: 80%;
 object-fit: contain;
+margin-top: -2vw;
 
 }
 .about-picture-container span {
