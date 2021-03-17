@@ -78,7 +78,7 @@ export default function Ocotillow() {
     return (
         
     <section id="bowls">
-      <MediaQuery minWidth={700}>
+      <MediaQuery minWidth={1270}>
       <div className="gallery">
        <figure className="gallery__item-1">
     <img src={blue} className="gallery__img" alt="Image 1"/>
@@ -106,16 +106,16 @@ export default function Ocotillow() {
   </div>
   </div>
   </MediaQuery>
-  <MediaQuery maxWidth={700}>
+  <MediaQuery maxWidth={1269}>
   <div className="gallery-mobile">
        
        <figure className="gallery__item-1-mobile">
-       {state.img1 ? <div className="modal">
+       {state.img1 ? <div onClick={() => setModal({img1: !state.img1})} className="modal">
         {x1}
     
       <img className="modal-img"src={blue}></img>
     </div> : ''}
-    <img src={blue} className="gallery__img" alt="Image 1"/>
+    <img src={blue} className="contain" alt="Image 1"/>
     <svg onClick={() => setModal({img1: !state.img1})}id="img1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-zoom-in" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
   <path d="M10.344 11.742c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1 6.538 6.538 0 0 1-1.398 1.4z"/>
@@ -136,7 +136,7 @@ export default function Ocotillow() {
    <p>Aqua Ocotillo Bowl</p>
   </figure>
        <figure className="gallery__item-5-mobile">
-       {state.img4 ? <div className="modal">
+       {state.img4 ? <div  onClick={() => setModal({ img4: !state.img4 })} className="modal">
         {x4}
     
       <img className="modal-img"src={red}></img>

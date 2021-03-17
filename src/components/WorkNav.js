@@ -16,7 +16,7 @@ export default function WorkNav() {
   return (
     
     <div >
-      <MediaQuery minWidth={700}>
+      <MediaQuery minWidth={1270}>
         <nav  className="navbar">
           <ul>
             <Anime
@@ -62,7 +62,7 @@ export default function WorkNav() {
           </ul>
         </nav>
       </MediaQuery>
-      <MediaQuery maxWidth={700}>
+      <MediaQuery maxWidth={1269}>
         
         {navOpen ? (
           <nav  onMouseOut={() => setNav(false)} className="navbar-mobile-work">

@@ -36,7 +36,7 @@ console.log(setNav)
         <section id="urchins">
           
           
-      <MediaQuery minWidth={700}>
+      <MediaQuery minWidth={1270}>
         <div className="gallery">
          <figure className="gallery__item-1-urchin">
       <img src={tallurchin1} className="contain"
@@ -76,11 +76,11 @@ console.log(setNav)
 
 
 
-    <MediaQuery maxWidth={700}>
+    <MediaQuery maxWidth={1269}>
       
     <div className="gallery-mobile">
          <figure className="gallery__item-1-urchin-mobile">
-         {state.img1 ? <div className="modal">
+         {state.img1 ? <div onClick={() => setModal({img1: !state.img1})} className="modal">
         {x1}
     
       <img className="modal-img"src={tallurchin1}></img>
@@ -97,7 +97,7 @@ console.log(setNav)
 
 {/* FIGURE 2 */}
          <figure className="gallery__item-2-urchin-mobile">
-         {state.img2 ? <div className="modal">
+         {state.img2 ? <div onClick={() => setModal({img2: !state.img2})} className="modal">
    {x2}
     
       <img className="modal-img"src={tallurchin2}></img>
@@ -112,7 +112,7 @@ console.log(setNav)
 
  {/* FIGURE 3 */}
     </figure>
-    {state.img3 ? <div className="modal">
+    {state.img3 ? <div onClick={() => setModal({img3: !state.img3})}id="img3" className="modal">
     <svg onClick={() => setModal({img3: !state.img3})} xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
   <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
 </svg>
@@ -131,7 +131,7 @@ console.log(setNav)
 
     {/* FIGURE 4 */}
          <figure className="gallery__item-4-urchin-mobile">
-         {state.img4 ? <div className="modal">
+         {state.img4 ? <div onClick={() => setModal({img4: !state.img4})} className="modal">
    {x4}
    
       <img className="modal-img"src={tallurchin4}></img>
@@ -146,7 +146,7 @@ console.log(setNav)
 
       {/* FIGURE 5 */}
     </figure>
-    {state.img5 ? <div className="modal">
+    {state.img5 ? <div onClick={() => setModal({img5: !state.img5})} className="modal">
    {x5}
     
       <img className="modal-img"src={shorturchin2}></img>
@@ -165,7 +165,7 @@ console.log(setNav)
     </figure>
     
          <figure className="gallery__item-6-urchin-mobile">
-         {state.img6 ? <div className="modal">
+         {state.img6 ? <div onClick={() => setModal({img6: !state.img6})}  className="modal">
    {x6}
  
       <img className="modal-img"src={shorturchin}></img>

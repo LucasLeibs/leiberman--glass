@@ -7,7 +7,7 @@ import MediaQuery from "react-responsive";
 export default function Lanterns() {
   return (
     <section>
-      <MediaQuery minWidth={700}>
+      <MediaQuery minWidth={1270}>
         <div className="gallery">
           <figure className="gallery__item-1-lantern">
             <img src={lantern} className="contain" alt="Image 1" />
@@ -27,7 +27,7 @@ export default function Lanterns() {
           </div>
         </div>
       </MediaQuery>
-      <MediaQuery maxWidth={700}>
+      <MediaQuery maxWidth={1269}>
         <div className="gallery-mobile">
           <figure className="gallery__item-1-lantern-mobile">
             <img src={lantern} className="contain" alt="Image 1" />

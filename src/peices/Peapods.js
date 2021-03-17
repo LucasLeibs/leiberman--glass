@@ -13,7 +13,7 @@ export default function Lanterns() {
         <section id="peapods">
           
           
-      <MediaQuery minWidth={700}>
+      <MediaQuery minWidth={1269}>
       <div className="gallery">
        <figure className="gallery__item-1-pea">
     <img src={greenPeapod}  className="gallery__img" alt="Image 1"/>
@@ -33,7 +33,7 @@ export default function Lanterns() {
   </div>
   </div>
   </MediaQuery>
-  <MediaQuery maxWidth={700}>
+  <MediaQuery maxWidth={1270}>
   <div className="gallery-mobile">
        <figure className="gallery__item-1-pea-mobile">
     <img src={greenPeapod}  className="gallery__img" alt="Image 1"/>

@@ -69,7 +69,7 @@ export default function Acrons() {
   );
   return (
     <section>
-      <MediaQuery minWidth={700}>
+      <MediaQuery minWidth={1270}>
         <div className="gallery">
           <figure className="gallery__item-2-acorns">
             <img
@@ -131,7 +131,7 @@ export default function Acrons() {
         </div>
       </MediaQuery>
 
-      <MediaQuery maxWidth={700}>
+      <MediaQuery maxWidth={1269}>
         <div className="gallery-mobile">
           <figure className="gallery__item-2-acorns-mobile">
             <img
@@ -144,7 +144,7 @@ export default function Acrons() {
           
           <figure className="gallery__item-3-acorns-mobile">
             {state.img1 ? (
-              <div className="modal">
+              <div onClick={() => setModal({ img1: !state.img1 })} className="modal">
                 {x1}
 
                 <img className="modal-img" src={autumn}></img>
@@ -179,7 +179,7 @@ export default function Acrons() {
           {/* FIGURE 2 */}
           <figure className="gallery__item-4-acorns-mobile">
             {state.img2 ? (
-              <div className="modal">
+              <div  onClick={() => setModal({ img2: !state.img2 })} className="modal">
                 {x2}
 
                 <img className="modal-img" src={olive}></img>
@@ -213,7 +213,7 @@ export default function Acrons() {
           {/* FIGURE 3 */}
           <figure className="gallery__item-5-acorns-mobile">
             {state.img3 ? (
-              <div className="modal">
+              <div  onClick={() => setModal({ img3: !state.img3 })} className="modal">
                 {x3}
 
                 <img className="modal-img" src={green}></img>
@@ -247,7 +247,7 @@ export default function Acrons() {
           {/* FIGURE 4 */}
           <figure className="gallery__item-6-acorns-mobile">
             {state.img4 ? (
-              <div className="modal">
+              <div onClick={() => setModal({ img4: !state.img4 })} className="modal">
                 {x4}
 
                 <img className="modal-img" src={red}></img>
