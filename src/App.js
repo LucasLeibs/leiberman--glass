@@ -38,7 +38,7 @@ function App() {
           <Route exact path="/work" component={BrowsePieces} />
         </Switch>
 
-        <MediaQuery minWidth={700}>
+        <MediaQuery minWidth={1270}>
           <footer>
             <span>
               
@@ -104,7 +104,7 @@ function App() {
             </div>
           </footer>
         </MediaQuery>
-        <MediaQuery maxWidth={700}>
+        <MediaQuery maxWidth={1269}>
           <footer className="footer-mobile">
           
       <p>leibglas@whidbey.com</p>
