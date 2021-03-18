@@ -60,23 +60,13 @@ export default function About() {
             surface textures produced from techniques such as sandblasting, acid etching, and the use of the precious metals evoke 
             veins in a leaf, the subtle intricacy of a coiling vine, or the exhuberance of tropical blossoms.  
              </p></div> : ''}
+          
         <h2>ERIC LEIBERMAN</h2>
      
         <p> My work represents an exploration into my fascination with natural forms, and the profound influence they 
             have in our lives...
 
-            {/* We depend upon plants for sustenence and the air we breathe. 
-            They have the power to heal the sick, poison the unwary, and alter the state of human conciousness. 
-            Flowers are given to communicate what words alone cannot: expressions of love or grief,  
-            celebrations of birth and marriage. 
-            We have used plants, actually, or symbolically, in worship and spiritual rituals since our beginning.  */}
-            {/* <br></br>
-            <br></br>
-            In my work, I try to communicate my inspiration; the beauty and the mystery of the natural world. 
-            The fluid motion of glass and the application of color are used to represent the myriad patterns present in nature. 
-            Surface textures produced from techniques such as sandblasting, acid etching, and the use of the precious metals evoke 
-            veins in a leaf, the subtle intricacy of a coiling vine, or the exhuberance of tropical blossoms. " */}
-
+        
              </p>
              <button onClick={() => openMore(true)} className="read-more-button">Read More <svg id="read-more-arrow" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
