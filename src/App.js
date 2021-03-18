@@ -44,7 +44,7 @@ function App() {
               
              
                 <p>
-                  P.O. Box 1086 <br></br>Langley, WA <br></br> 98260
+                leibglas@whidbey.com
                 </p>
           
             </span>
@@ -53,7 +53,7 @@ function App() {
 </svg></a>
 
             <div className="award-container">
-              <p> AWARDS & RECOGNITION</p>
+       
               <div className="awards">
                 <div className="award">
                   <img
