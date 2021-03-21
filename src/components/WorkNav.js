@@ -65,7 +65,7 @@ export default function WorkNav() {
       <MediaQuery maxWidth={1269}>
         
         {navOpen ? (
-          <nav  onMouseOut={() => setNav(false)} className="navbar-mobile-work">
+          <nav    className="navbar-mobile-work">
             <svg
               onClick={() => toggleNav()}
               xmlns="http://www.w3.org/2000/svg"
