@@ -25,13 +25,7 @@ export default function WorkNav() {
       
           <ul>
           
-              loop={false}
-              duration={3000}
-              direction="alternate"
-              delay={(el, index) => index * 240}
-              translateX="20rem"
-              scale={[0.95, 0.9]}
-            >
+           
               <li>
                 <h1>WORK</h1>{" "}
               </li>
@@ -89,13 +83,6 @@ export default function WorkNav() {
 </svg>
             <ul>
           
-                loop={false}
-                duration={3000}
-                direction="alternate"
-                delay={(el, index) => index * 240}
-                translateX="0rem"
-                scale={[0.95, 0.9]}
-              >
                 <li>
                   <h1>WORK</h1>{" "}
                 </li>

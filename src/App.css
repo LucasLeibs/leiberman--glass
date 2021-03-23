@@ -11,7 +11,7 @@ overflow: hidden;
 .navbar {
   margin-top: 250px;
   position: fixed;
-margin-left:-300px;
+
   z-index: 1;
   display: flex;
 left: 0;
