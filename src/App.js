@@ -46,14 +46,14 @@ function App() {
           <ScrollToTop>
       <div ref={container} className="container">
      
-      { window.location.href !== "https://master.d3evk3sp1ak1p2.amplifyapp.com/" ? <WorkNav/> : ''}
+      { window.location.href != "https://master.d3evk3sp1ak1p2.amplifyapp.com/" ? <WorkNav/> : ''}
         <Switch>
           <Route exact path="/" component={Main} />
-          <Route exact path="/work" component={Urchins} />
-          <Route exact path="/lanterns" component={Lanterns}/>
-          <Route exact path="/peapods" component={Peapods}/>
-      <Route exact path="/ocotillo" component={Ocotillow}/>
-      <Route exact path="/acorns" component={Acrons}/>
+          <Route exact path="https://master.d3evk3sp1ak1p2.amplifyapp.com/work" component={Urchins} />
+          <Route exact path="https://master.d3evk3sp1ak1p2.amplifyapp.com/lanterns" component={Lanterns}/>
+          <Route exact path="https://master.d3evk3sp1ak1p2.amplifyapp.com/peapods" component={Peapods}/>
+      <Route exact path="https://master.d3evk3sp1ak1p2.amplifyapp.com/ocotillo" component={Ocotillow}/>
+      <Route exact path="https://master.d3evk3sp1ak1p2.amplifyapp.com/acorns" component={Acrons}/>
         </Switch>
 
         <MediaQuery minWidth={1270}>
