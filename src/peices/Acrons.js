@@ -71,6 +71,7 @@ export default function Acrons() {
   return (
     <section>
       <MediaQuery minWidth={1270}>
+        <WorkNav></WorkNav>
         <div className="gallery">
           <figure className="gallery__item-2-acorns">
             <img
