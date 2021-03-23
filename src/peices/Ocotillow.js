@@ -108,6 +108,7 @@ export default function Ocotillow() {
   </div>
   </MediaQuery>
   <MediaQuery maxWidth={1269}>
+  <WorkNav></WorkNav>
   <div className="gallery-mobile">
        
        <figure className="gallery__item-1-mobile">

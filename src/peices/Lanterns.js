@@ -29,6 +29,7 @@ export default function Lanterns() {
         </div>
       </MediaQuery>
       <MediaQuery maxWidth={1269}>
+      <WorkNav></WorkNav>
         <div className="gallery-mobile">
           <figure className="gallery__item-1-lantern-mobile">
             <img src={lantern} className="contain" alt="Image 1" />

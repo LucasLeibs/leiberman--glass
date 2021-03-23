@@ -16,14 +16,15 @@ export default function WorkNav() {
   return (
     
     <div >
-    <svg id="arrow" onClick={() => window.location.href = "https://master.d3evk3sp1ak1p2.amplifyapp.com/"} xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+   
+      <MediaQuery minWidth={1270}>
+      <svg id="arrow" onClick={() => window.location.href = "https://master.d3evk3sp1ak1p2.amplifyapp.com/"} xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
 </svg>
-      <MediaQuery minWidth={1270}>
         <nav  className="navbar">
       
           <ul>
-            <Anime
+          
               loop={false}
               duration={3000}
               direction="alternate"
@@ -62,7 +63,7 @@ export default function WorkNav() {
                 </Link>
               </li>
               <li></li>
-            </Anime>
+         
           </ul>
         </nav>
       </MediaQuery>
@@ -87,7 +88,7 @@ export default function WorkNav() {
   <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
 </svg>
             <ul>
-              <Anime
+          
                 loop={false}
                 duration={3000}
                 direction="alternate"
@@ -126,7 +127,6 @@ export default function WorkNav() {
                   </Link>
                 </li>
                
-              </Anime>
             </ul>
           </nav>
         ) : (

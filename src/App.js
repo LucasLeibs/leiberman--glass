@@ -58,7 +58,14 @@ function App() {
         </Switch>
 
         <MediaQuery minWidth={1270}>
-        
+        {/* <Switch>
+          <Route exact path="/" component={Main} />
+          <Route exact path="/work" component={Urchins} />
+          <Route exact path="/lanterns" component={Lanterns}/>
+          <Route exact path="/peapods" component={Peapods}/>
+      <Route exact path="/ocotillo" component={Ocotillow}/>
+      <Route exact path="/acorns" component={Acrons}/>
+        </Switch> */}
           <footer>
           
             <span>

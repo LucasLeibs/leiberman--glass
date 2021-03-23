@@ -81,6 +81,7 @@ console.log(setNav)
 
 
     <MediaQuery maxWidth={1269}>
+    <WorkNav></WorkNav>
       
     <div className="gallery-mobile">
          <figure className="gallery__item-1-urchin-mobile">

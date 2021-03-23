@@ -121,6 +121,7 @@ export default function Acrons() {
       </MediaQuery>
 
       <MediaQuery maxWidth={1269}>
+      <WorkNav></WorkNav>
         <div className="gallery-mobile">
           <figure className="gallery__item-2-acorns-mobile">
             <img

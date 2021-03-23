@@ -35,6 +35,7 @@ export default function Lanterns() {
   </div>
   </MediaQuery>
   <MediaQuery maxWidth={1270}>
+  <WorkNav></WorkNav>
   <div className="gallery-mobile">
        <figure className="gallery__item-1-pea-mobile">
     <img src={greenPeapod}  className="gallery__img" alt="Image 1"/>
