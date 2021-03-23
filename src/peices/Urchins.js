@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import tallurchin1 from '../images/urchins/tallbluespikey.jpg'
 import tallurchin2 from '../images/urchins/tullpurple.jpg'
 import tallurchin3 from '../images/urchins/bluemedium.jpg'
@@ -8,6 +8,9 @@ import shorturchin2 from '../images/urchins/purpleslider.jpg'
 import MediaQuery from 'react-responsive'
 
 export default function Urchins(setNav) {
+ useEffect(() => {
+   window.location.reload()
+ }, [])
 const [state, setModal] = useState({
   img1: false, img2: false, img3: false, img4:false, img5: false, img6:false
 })
