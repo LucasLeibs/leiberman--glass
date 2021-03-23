@@ -37,6 +37,9 @@ console.log(setNav)
           
           
       <MediaQuery minWidth={1270}>
+       
+      
+     
         <div className="gallery">
          <figure className="gallery__item-1-urchin">
       <img src={tallurchin1} className="contain"

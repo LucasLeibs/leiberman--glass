@@ -21,7 +21,7 @@ export default function BrowsePieces() {
   
  const { path } = useLocation()
   return (
-    <Router>
+  
       <ScrollToTop>
         <MediaQuery minWidth={1270}>
       <div className="container">
@@ -32,12 +32,7 @@ export default function BrowsePieces() {
         
         <Switch>
        
-        <Route exact path="/work" component={Urchins} />
-      <Route exact path="/lanterns" component={Lanterns}/>
-      <Route exact path="/peapods" component={Peapods}/>
-      <Route exact path="/ocotillo" component={Ocotillow}/>
-      <Route exact path="/acorns" component={Acrons}/>
-      {/* <Route exact path="/work" component={BrowsePieces}/> */}
+       
   
    
    
@@ -66,6 +61,6 @@ export default function BrowsePieces() {
       </div>
       </MediaQuery>
       </ScrollToTop>
-    </Router>
+  
   );
 }

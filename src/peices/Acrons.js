@@ -6,6 +6,7 @@ import red from "../images/acorns/red.jpg";
 import olive from "../images/acorns/olive.jpg";
 import autumn from "../images/acorns/pink.jpg";
 import MediaQuery from "react-responsive";
+import WorkNav from '../components/WorkNav'
 export default function Acrons() {
   const [state, setModal] = useState({
     img1: false,

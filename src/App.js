@@ -1,10 +1,18 @@
 import "./App.css";
+import Lanterns from './peices/Lanterns'
+import Peapods from './peices/Peapods'
+import Acrons from './peices/Acrons'
+import Ocotillow from './peices/Ocotillow'
+import Urchins from './peices/Urchins'
 import React, { useEffect } from "react";
+import ScrollToTop from "./components/ScrollToTop"
+import WorkNav from './components/WorkNav'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link,
+  useLocation
 } from "react-router-dom";
 import BrowsePieces from "./components/BrowsePieces";
 import Main from "./containers/Main";
@@ -17,6 +25,7 @@ function callback() {
 }
 function App() {
   const container = React.createRef();
+  
 
   const bindScrollSnap = () => {
     const element = container.current;
@@ -27,19 +36,30 @@ function App() {
     snapElement.bind(callback);
   };
 
+  
   useEffect(() => {
     bindScrollSnap();
   }, []);
   return (
+
     <Router>
+          <ScrollToTop>
       <div ref={container} className="container">
+     
+      { window.location.href !== "https://master.d3evk3sp1ak1p2.amplifyapp.com/" ? <WorkNav/> : ''}
         <Switch>
           <Route exact path="/" component={Main} />
-          <Route exact path="/work" component={BrowsePieces} />
+          <Route exact path="/work" component={Urchins} />
+          <Route exact path="/lanterns" component={Lanterns}/>
+          <Route exact path="/peapods" component={Peapods}/>
+      <Route exact path="/ocotillo" component={Ocotillow}/>
+      <Route exact path="/acorns" component={Acrons}/>
         </Switch>
 
         <MediaQuery minWidth={1270}>
+        
           <footer>
+          
             <span>
               
              
@@ -119,7 +139,9 @@ function App() {
           </footer>
         </MediaQuery>
       </div>
+      </ScrollToTop>
     </Router>
+ 
   );
 }
 

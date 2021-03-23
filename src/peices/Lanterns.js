@@ -1,13 +1,14 @@
 import React from "react";
 import lantern from "../images/glass/redlantern1.jpg";
 import lantern2 from "../images/glass/redlantern2.jpg";
-
+import WorkNav from '../components/WorkNav'
 import MediaQuery from "react-responsive";
 
 export default function Lanterns() {
   return (
     <section>
       <MediaQuery minWidth={1270}>
+     
         <div className="gallery">
           <figure className="gallery__item-1-lantern">
             <img src={lantern} className="contain" alt="Image 1" />

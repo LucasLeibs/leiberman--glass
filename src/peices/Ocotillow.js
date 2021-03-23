@@ -79,6 +79,7 @@ export default function Ocotillow() {
         
     <section id="bowls">
       <MediaQuery minWidth={1270}>
+       
       <div className="gallery">
        <figure className="gallery__item-1">
     <img src={blue} className="gallery__img" alt="Image 1"/>

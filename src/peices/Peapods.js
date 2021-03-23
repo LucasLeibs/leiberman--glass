@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-
+import WorkNav from '../components/WorkNav'
 import peapod3 from '../images/glass/redpea.jpg'
 import greenPeapod from '../images/glass/greenpea.jpg'
 
@@ -14,6 +14,7 @@ export default function Lanterns() {
           
           
       <MediaQuery minWidth={1269}>
+      {/* <WorkNav></WorkNav> */}
       <div className="gallery">
        <figure className="gallery__item-1-pea">
     <img src={greenPeapod}  className="gallery__img" alt="Image 1"/>
