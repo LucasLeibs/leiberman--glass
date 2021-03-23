@@ -8,7 +8,9 @@ import shorturchin2 from '../images/urchins/purpleslider.jpg'
 import MediaQuery from 'react-responsive'
 
 export default function Urchins(setNav) {
-
+useEffect(() => {
+  window.location.reload()
+},[])
 const [state, setModal] = useState({
   img1: false, img2: false, img3: false, img4:false, img5: false, img6:false
 })
