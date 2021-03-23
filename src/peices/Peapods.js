@@ -14,7 +14,7 @@ export default function Lanterns() {
           
           
       <MediaQuery minWidth={1269}>
-      {/* <WorkNav></WorkNav> */}
+      <WorkNav></WorkNav>
       <div className="gallery">
        <figure className="gallery__item-1-pea">
     <img src={greenPeapod}  className="gallery__img" alt="Image 1"/>

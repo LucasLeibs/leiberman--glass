@@ -9,7 +9,7 @@ import blue3 from '../images/glass/bluelean.jpg'
 import bluebowl from '../images/glass/bluebowl.jpg'
 
 import ReactPlayer from 'react-player'
-
+import WorkNav from '../components/WorkNav'
 import MediaQuery from 'react-responsive'
 
   
@@ -79,7 +79,7 @@ export default function Ocotillow() {
         
     <section id="bowls">
       <MediaQuery minWidth={1270}>
-       
+       <WorkNav></WorkNav>
       <div className="gallery">
        <figure className="gallery__item-1">
     <img src={blue} className="gallery__img" alt="Image 1"/>

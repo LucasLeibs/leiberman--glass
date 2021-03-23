@@ -6,7 +6,7 @@ import tallurchin4 from '../images/urchins/redmedium.jpg'
 import shorturchin from '../images/urchins/redslider.jpg'
 import shorturchin2 from '../images/urchins/purpleslider.jpg'
 import MediaQuery from 'react-responsive'
-
+import WorkNav from '../components/WorkNav'
 export default function Urchins(setNav) {
 
 const [state, setModal] = useState({
@@ -38,7 +38,7 @@ console.log(setNav)
           
           
       <MediaQuery minWidth={1270}>
-       
+       <WorkNav></WorkNav>
       
      
         <div className="gallery">

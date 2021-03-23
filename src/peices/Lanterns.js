@@ -8,7 +8,7 @@ export default function Lanterns() {
   return (
     <section>
       <MediaQuery minWidth={1270}>
-     
+     <WorkNav></WorkNav>
         <div className="gallery">
           <figure className="gallery__item-1-lantern">
             <img src={lantern} className="contain" alt="Image 1" />

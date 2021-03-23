@@ -26,7 +26,7 @@ function callback() {
 }
 function App() {
   const container = React.createRef();
-  const [workNav, setWorkNav] = useState(false)
+  
 
   const bindScrollSnap = () => {
     const element = container.current;
@@ -47,8 +47,7 @@ function App() {
           <ScrollToTop>
       <div ref={container} className="container">
      
-      { window.location.href != 'https://master.d3evk3sp1ak1p2.amplifyapp.com/' ? setWorkNav(true) : setWorkNav(false)}
-      {workNav ? <WorkNav></WorkNav> : ''}
+      
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/work" component={Urchins} />
