@@ -17,8 +17,9 @@ const [isShown, showIt] = useState(false)
       
         <div className="home-gallery">
 
-
+  
         <p className="big-title">LEIBERMAN GLASS</p>
+    
         <figure onMouseEnter={() => showIt(true)}  className="home-image-1">
           <img className="home1" src={shelter}></img>
         </figure>
