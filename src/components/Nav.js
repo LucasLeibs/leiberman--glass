@@ -31,7 +31,7 @@ export default function Nav() {
               smooth={true}
               offset={0}
               duration={750}
-            >LEIBERMAN GLASS
+            >HOME
             </Link>
           </li>
           <li>
