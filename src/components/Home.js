@@ -21,17 +21,17 @@ const [isShown, showIt] = useState(false)
         <p className="big-title">LEIBERMAN GLASS</p>
     
         <figure onMouseEnter={() => showIt(true)}  className="home-image-1">
-          <img className="home1" src={shelter}></img>
+          <img onClick={() => window.location.href = "https://master.d3evk3sp1ak1p2.amplifyapp.com/work"} className="home1" src={shelter}></img>
         </figure>
         
         <figure className="home-image-2">
-          <img className="home1" src={urchin}></img>
+          <img onClick={() => window.location.href = "https://master.d3evk3sp1ak1p2.amplifyapp.com/work"} className="home1" src={urchin}></img>
         </figure>
         <figure className="home-image-3">
-          <img className="home1" src={blue}></img>
+          <img onClick={() => window.location.href = "https://master.d3evk3sp1ak1p2.amplifyapp.com/ocotillo"} className="home1" src={blue}></img>
         </figure>
         <figure className="home-image-4">
-          <img className="home1" src={shelter3}></img>
+          <img onClick={() => window.location.href = "https://master.d3evk3sp1ak1p2.amplifyapp.com/work"} className="home1" src={shelter3}></img>
         </figure>
        
         </div>
@@ -48,7 +48,7 @@ const [isShown, showIt] = useState(false)
           <img className="home1" src={shelter}></img>
         </figure>
         
-        <figure className="home-image-2">
+        <figure  className="home-image-2">
           <img className="home1" src={urchin}></img>
         </figure>
         <figure className="home-image-3">
